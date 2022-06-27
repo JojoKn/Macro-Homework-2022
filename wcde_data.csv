@@ -1,0 +1,1625 @@
+Source: Wittgenstein Centre for Demography and Global Human Capital (2018). Wittgenstein Centre Data Explorer Version 2.0
+Available at: www.wittgensteincentre.org/dataexplorer 
+
+""
+"Mean Years of Schooling by Broad Age"
+"Mean number of years spent in school, classified by sex and broad age groups. Available in all scenarios and at all geographical scales. It is expressed in years."
+"Medium (SSP2)"
+" "
+"Area","Year","Age","Years"
+"Afghanistan",2015,"15+",3.3
+"Albania",2015,"15+",10.06
+"Algeria",2015,"15+",9.17
+"Angola",2015,"15+",3.02
+"Antigua and Barbuda",2015,"15+",10.39
+"Argentina",2015,"15+",9.79
+"Armenia",2015,"15+",10.8
+"Aruba",2015,"15+",8.95
+"Australia",2015,"15+",13.16
+"Austria",2015,"15+",11.5
+"Azerbaijan",2015,"15+",10.76
+"Bahamas",2015,"15+",12.46
+"Bahrain",2015,"15+",9.28
+"Bangladesh",2015,"15+",5.64
+"Barbados",2015,"15+",9.63
+"Belarus",2015,"15+",11.04
+"Belgium",2015,"15+",11.25
+"Belize",2015,"15+",8.6
+"Benin",2015,"15+",4.4
+"Bhutan",2015,"15+",5.18
+"Bolivia (Plurinational State of)",2015,"15+",9
+"Bosnia and Herzegovina",2015,"15+",10.31
+"Botswana",2015,"15+",9.42
+"Brazil",2015,"15+",7.12
+"Brunei Darussalam",2015,"15+",9.43
+"Bulgaria",2015,"15+",11.21
+"Burkina Faso",2015,"15+",2.68
+"Burundi",2015,"15+",4.04
+"Cambodia",2015,"15+",5.37
+"Cameroon",2015,"15+",7.34
+"Canada",2015,"15+",12.77
+"Cape Verde",2015,"15+",6.51
+"Central African Republic",2015,"15+",5.79
+"Chad",2015,"15+",3.02
+"Channel Islands",2015,"15+",11.76
+"Chile",2015,"15+",10.73
+"China",2015,"15+",8.33
+"Colombia",2015,"15+",8.17
+"Comoros",2015,"15+",7.01
+"Congo",2015,"15+",8.09
+"Costa Rica",2015,"15+",8.77
+"Cote d'Ivoire",2015,"15+",4.64
+"Croatia",2015,"15+",11.26
+"Cuba",2015,"15+",10.76
+"Curaçao",2015,"15+",9.99
+"Cyprus",2015,"15+",12.14
+"Czech Republic",2015,"15+",12.58
+"Democratic People's Republic of Korea",2015,"15+",10.66
+"Democratic Republic of the Congo",2015,"15+",6.58
+"Denmark",2015,"15+",12.17
+"Djibouti",2015,"15+",4.04
+"Dominican Republic",2015,"15+",8.3
+"Ecuador",2015,"15+",8.95
+"Egypt",2015,"15+",8.36
+"El Salvador",2015,"15+",7.58
+"Equatorial Guinea",2015,"15+",7.29
+"Eritrea",2015,"15+",3.77
+"Estonia",2015,"15+",12.86
+"Ethiopia",2015,"15+",3.3
+"Fiji",2015,"15+",11.05
+"Finland",2015,"15+",12.22
+"France",2015,"15+",11.31
+"French Guiana",2015,"15+",8.34
+"French Polynesia",2015,"15+",10.58
+"Gabon",2015,"15+",8.23
+"Gambia",2015,"15+",4.57
+"Georgia",2015,"15+",12.24
+"Germany",2015,"15+",13.24
+"Ghana",2015,"15+",7.38
+"Greece",2015,"15+",10.78
+"Grenada",2015,"15+",10.18
+"Guadeloupe",2015,"15+",9.34
+"Guam",2015,"15+",9.78
+"Guatemala",2015,"15+",6.09
+"Guinea",2015,"15+",4.21
+"Guinea-Bissau",2015,"15+",4.06
+"Guyana",2015,"15+",9.82
+"Haiti",2015,"15+",5.63
+"Honduras",2015,"15+",5.83
+"Hong Kong Special Administrative Region of China",2015,"15+",11.44
+"Hungary",2015,"15+",11.79
+"Iceland",2015,"15+",13.04
+"India",2015,"15+",6.82
+"Indonesia",2015,"15+",8.77
+"Iran (Islamic Republic of)",2015,"15+",8.77
+"Iraq",2015,"15+",7.49
+"Ireland",2015,"15+",11.95
+"Israel",2015,"15+",11.5
+"Italy",2015,"15+",10.76
+"Jamaica",2015,"15+",9.86
+"Japan",2015,"15+",12.9
+"Jordan",2015,"15+",9.71
+"Kazakhstan",2015,"15+",10.95
+"Kenya",2015,"15+",7.87
+"Kiribati",2015,"15+",9.26
+"Kuwait",2015,"15+",8.03
+"Kyrgyzstan",2015,"15+",10.48
+"Lao People's Democratic Republic",2015,"15+",6.38
+"Latvia",2015,"15+",12.19
+"Lebanon",2015,"15+",9.73
+"Lesotho",2015,"15+",7.36
+"Liberia",2015,"15+",4.81
+"Libyan Arab Jamahiriya",2015,"15+",7.89
+"Lithuania",2015,"15+",12.69
+"Luxembourg",2015,"15+",12.56
+"Macao Special Administrative Region of China",2015,"15+",10.69
+"Madagascar",2015,"15+",4.47
+"Malawi",2015,"15+",6.2
+"Malaysia",2015,"15+",11.07
+"Maldives",2015,"15+",7.29
+"Mali",2015,"15+",2.38
+"Malta",2015,"15+",10.55
+"Martinique",2015,"15+",10.25
+"Mauritania",2015,"15+",4.29
+"Mauritius",2015,"15+",8.89
+"Mayotte",2015,"15+",9.78
+"Mexico",2015,"15+",8.87
+"Micronesia (Federated States of)",2015,"15+",9.23
+"Mongolia",2015,"15+",10.28
+"Montenegro",2015,"15+",11.3
+"Morocco",2015,"15+",5.48
+"Mozambique",2015,"15+",3.17
+"Myanmar",2015,"15+",6.33
+"Namibia",2015,"15+",8.17
+"Nepal",2015,"15+",5.57
+"Netherlands",2015,"15+",11.77
+"New Caledonia",2015,"15+",10.9
+"New Zealand",2015,"15+",13.04
+"Nicaragua",2015,"15+",6.59
+"Niger",2015,"15+",2.13
+"Nigeria",2015,"15+",6.6
+"Norway",2015,"15+",12.66
+"Occupied Palestinian Territory",2015,"15+",10.4
+"Oman",2015,"15+",9
+"Pakistan",2015,"15+",5.04
+"Panama",2015,"15+",9.7
+"Papua New Guinea",2015,"15+",6.79
+"Paraguay",2015,"15+",8.46
+"Peru",2015,"15+",9.77
+"Philippines",2015,"15+",9.18
+"Poland",2015,"15+",12.45
+"Portugal",2015,"15+",8.04
+"Puerto Rico",2015,"15+",11.7
+"Qatar",2015,"15+",9.27
+"Republic of Korea",2015,"15+",11.91
+"Republic of Moldova",2015,"15+",10.58
+"Reunion",2015,"15+",9.29
+"Romania",2015,"15+",10.92
+"Russian Federation",2015,"15+",10.32
+"Rwanda",2015,"15+",4.65
+"Saint Lucia",2015,"15+",10.08
+"Saint Vincent and the Grenadines",2015,"15+",10.52
+"Samoa",2015,"15+",10.18
+"Sao Tome and Principe",2015,"15+",4.88
+"Saudi Arabia",2015,"15+",9.85
+"Senegal",2015,"15+",4.34
+"Serbia",2015,"15+",11.26
+"Seychelles",2015,"15+",10.15
+"Sierra Leone",2015,"15+",4.34
+"Singapore",2015,"15+",11.59
+"Slovakia",2015,"15+",12.75
+"Slovenia",2015,"15+",11.8
+"Solomon Islands",2015,"15+",6.54
+"Somalia",2015,"15+",3.39
+"South Africa",2015,"15+",9.69
+"South Sudan",2015,"15+",2.7
+"Spain",2015,"15+",10.43
+"Sri Lanka",2015,"15+",10.19
+"Sudan",2015,"15+",4.91
+"Suriname",2015,"15+",9.96
+"Swaziland",2015,"15+",9.09
+"Sweden",2015,"15+",12.1
+"Switzerland",2015,"15+",12.83
+"Syrian Arab Republic",2015,"15+",7.01
+"Taiwan Province of China",2015,"15+",11.49
+"Tajikistan",2015,"15+",11.36
+"Thailand",2015,"15+",9.79
+"The former Yugoslav Republic of Macedonia",2015,"15+",9.93
+"Timor-Leste",2015,"15+",6.67
+"Togo",2015,"15+",5.32
+"Tonga",2015,"15+",10.64
+"Trinidad and Tobago",2015,"15+",11.2
+"Tunisia",2015,"15+",8.36
+"Turkey",2015,"15+",8.67
+"Turkmenistan",2015,"15+",10.59
+"Uganda",2015,"15+",6.71
+"Ukraine",2015,"15+",10.64
+"United Arab Emirates",2015,"15+",10.2
+"United Kingdom of Great Britain and Northern Ireland",2015,"15+",12.78
+"United Republic of Tanzania",2015,"15+",7.07
+"United States of America",2015,"15+",12.54
+"United States Virgin Islands",2015,"15+",9.18
+"Uruguay",2015,"15+",9.04
+"Uzbekistan",2015,"15+",10.9
+"Vanuatu",2015,"15+",7.06
+"Venezuela (Bolivarian Republic of)",2015,"15+",9.77
+"Viet Nam",2015,"15+",7.86
+"Western Sahara",2015,"15+",3.63
+"World",2015,"15+",8.48
+"Yemen",2015,"15+",2.89
+"Zambia",2015,"15+",7.71
+"Zimbabwe",2015,"15+",10.27
+"Afghanistan",2015,"25+",2.56
+"Albania",2015,"25+",10
+"Algeria",2015,"25+",8.75
+"Angola",2015,"25+",2.44
+"Antigua and Barbuda",2015,"25+",10.22
+"Argentina",2015,"25+",9.81
+"Armenia",2015,"25+",10.82
+"Aruba",2015,"25+",8.9
+"Australia",2015,"25+",13.17
+"Austria",2015,"25+",11.54
+"Azerbaijan",2015,"25+",10.73
+"Bahamas",2015,"25+",12.5
+"Bahrain",2015,"25+",9.12
+"Bangladesh",2015,"25+",5.04
+"Barbados",2015,"25+",9.42
+"Belarus",2015,"25+",11.04
+"Belgium",2015,"25+",11.38
+"Belize",2015,"25+",8.31
+"Benin",2015,"25+",3.55
+"Bhutan",2015,"25+",4.19
+"Bolivia (Plurinational State of)",2015,"25+",8.81
+"Bosnia and Herzegovina",2015,"25+",9.95
+"Botswana",2015,"25+",9.01
+"Brazil",2015,"25+",6.73
+"Brunei Darussalam",2015,"25+",9.19
+"Bulgaria",2015,"25+",11.33
+"Burkina Faso",2015,"25+",2.19
+"Burundi",2015,"25+",3.38
+"Cambodia",2015,"25+",4.65
+"Cameroon",2015,"25+",6.84
+"Canada",2015,"25+",13.06
+"Cape Verde",2015,"25+",5.91
+"Central African Republic",2015,"25+",4.99
+"Chad",2015,"25+",2.4
+"Channel Islands",2015,"25+",11.8
+"Chile",2015,"25+",10.82
+"China",2015,"25+",7.92
+"Colombia",2015,"25+",7.88
+"Comoros",2015,"25+",6.35
+"Congo",2015,"25+",7.97
+"Costa Rica",2015,"25+",8.67
+"Cote d'Ivoire",2015,"25+",4.11
+"Croatia",2015,"25+",11.38
+"Cuba",2015,"25+",10.78
+"Curaçao",2015,"25+",10.01
+"Cyprus",2015,"25+",12.24
+"Czech Republic",2015,"25+",12.71
+"Democratic People's Republic of Korea",2015,"25+",10.76
+"Democratic Republic of the Congo",2015,"25+",6.25
+"Denmark",2015,"25+",12.43
+"Djibouti",2015,"25+",3.56
+"Dominican Republic",2015,"25+",7.97
+"Ecuador",2015,"25+",8.68
+"Egypt",2015,"25+",7.74
+"El Salvador",2015,"25+",7.15
+"Equatorial Guinea",2015,"25+",7.04
+"Eritrea",2015,"25+",3.27
+"Estonia",2015,"25+",13.19
+"Ethiopia",2015,"25+",2.59
+"Fiji",2015,"25+",10.92
+"Finland",2015,"25+",12.52
+"France",2015,"25+",11.36
+"French Guiana",2015,"25+",8.29
+"French Polynesia",2015,"25+",10.4
+"Gabon",2015,"25+",8.27
+"Gambia",2015,"25+",3.62
+"Georgia",2015,"25+",12.34
+"Germany",2015,"25+",13.53
+"Ghana",2015,"25+",7.08
+"Greece",2015,"25+",10.78
+"Grenada",2015,"25+",9.97
+"Guadeloupe",2015,"25+",9.06
+"Guam",2015,"25+",9.63
+"Guatemala",2015,"25+",5.64
+"Guinea",2015,"25+",3.6
+"Guinea-Bissau",2015,"25+",3.48
+"Guyana",2015,"25+",9.81
+"Haiti",2015,"25+",4.87
+"Honduras",2015,"25+",5.34
+"Hong Kong Special Administrative Region of China",2015,"25+",11.4
+"Hungary",2015,"25+",11.97
+"Iceland",2015,"25+",13.31
+"India",2015,"25+",6.22
+"Indonesia",2015,"25+",8.46
+"Iran (Islamic Republic of)",2015,"25+",8.56
+"Iraq",2015,"25+",7.43
+"Ireland",2015,"25+",11.82
+"Israel",2015,"25+",11.49
+"Italy",2015,"25+",10.75
+"Jamaica",2015,"25+",9.75
+"Japan",2015,"25+",13.04
+"Jordan",2015,"25+",9.69
+"Kazakhstan",2015,"25+",10.93
+"Kenya",2015,"25+",7.9
+"Kiribati",2015,"25+",8.75
+"Kuwait",2015,"25+",7.92
+"Kyrgyzstan",2015,"25+",10.66
+"Lao People's Democratic Republic",2015,"25+",5.92
+"Latvia",2015,"25+",12.43
+"Lebanon",2015,"25+",9.56
+"Lesotho",2015,"25+",6.99
+"Liberia",2015,"25+",4.41
+"Libyan Arab Jamahiriya",2015,"25+",7.39
+"Lithuania",2015,"25+",13.03
+"Luxembourg",2015,"25+",12.74
+"Macao Special Administrative Region of China",2015,"25+",10.58
+"Madagascar",2015,"25+",4.29
+"Malawi",2015,"25+",5.5
+"Malaysia",2015,"25+",10.7
+"Maldives",2015,"25+",6.66
+"Mali",2015,"25+",1.83
+"Malta",2015,"25+",10.19
+"Martinique",2015,"25+",10.09
+"Mauritania",2015,"25+",3.75
+"Mauritius",2015,"25+",8.48
+"Mayotte",2015,"25+",9.48
+"Mexico",2015,"25+",8.6
+"Micronesia (Federated States of)",2015,"25+",9.3
+"Mongolia",2015,"25+",10.11
+"Montenegro",2015,"25+",11.46
+"Morocco",2015,"25+",4.75
+"Mozambique",2015,"25+",2.27
+"Myanmar",2015,"25+",5.86
+"Namibia",2015,"25+",7.82
+"Nepal",2015,"25+",4.55
+"Netherlands",2015,"25+",11.98
+"New Caledonia",2015,"25+",10.62
+"New Zealand",2015,"25+",13.01
+"Nicaragua",2015,"25+",6.2
+"Niger",2015,"25+",1.52
+"Nigeria",2015,"25+",6.15
+"Norway",2015,"25+",12.79
+"Occupied Palestinian Territory",2015,"25+",10.18
+"Oman",2015,"25+",8.73
+"Pakistan",2015,"25+",4.43
+"Panama",2015,"25+",9.64
+"Papua New Guinea",2015,"25+",6.32
+"Paraguay",2015,"25+",8.22
+"Peru",2015,"25+",9.71
+"Philippines",2015,"25+",9.08
+"Poland",2015,"25+",12.7
+"Portugal",2015,"25+",7.75
+"Puerto Rico",2015,"25+",11.8
+"Qatar",2015,"25+",9.27
+"Republic of Korea",2015,"25+",11.98
+"Republic of Moldova",2015,"25+",10.6
+"Reunion",2015,"25+",8.96
+"Romania",2015,"25+",11.04
+"Russian Federation",2015,"25+",10.2
+"Rwanda",2015,"25+",4.03
+"Saint Lucia",2015,"25+",9.87
+"Saint Vincent and the Grenadines",2015,"25+",10.46
+"Samoa",2015,"25+",10.47
+"Sao Tome and Principe",2015,"25+",3.95
+"Saudi Arabia",2015,"25+",9.67
+"Senegal",2015,"25+",3.76
+"Serbia",2015,"25+",11.4
+"Seychelles",2015,"25+",9.87
+"Sierra Leone",2015,"25+",3.95
+"Singapore",2015,"25+",11.68
+"Slovakia",2015,"25+",12.96
+"Slovenia",2015,"25+",11.8
+"Solomon Islands",2015,"25+",6.19
+"Somalia",2015,"25+",2.91
+"South Africa",2015,"25+",9.62
+"South Sudan",2015,"25+",2.21
+"Spain",2015,"25+",10.35
+"Sri Lanka",2015,"25+",9.98
+"Sudan",2015,"25+",4.27
+"Suriname",2015,"25+",9.73
+"Swaziland",2015,"25+",8.93
+"Sweden",2015,"25+",12.21
+"Switzerland",2015,"25+",13.03
+"Syrian Arab Republic",2015,"25+",6.68
+"Taiwan Province of China",2015,"25+",11.48
+"Tajikistan",2015,"25+",11.67
+"Thailand",2015,"25+",9.67
+"The former Yugoslav Republic of Macedonia",2015,"25+",9.6
+"Timor-Leste",2015,"25+",5.47
+"Togo",2015,"25+",4.6
+"Tonga",2015,"25+",10.6
+"Trinidad and Tobago",2015,"25+",11.07
+"Tunisia",2015,"25+",7.79
+"Turkey",2015,"25+",8.36
+"Turkmenistan",2015,"25+",10.71
+"Uganda",2015,"25+",6.16
+"Ukraine",2015,"25+",10.61
+"United Arab Emirates",2015,"25+",10.12
+"United Kingdom of Great Britain and Northern Ireland",2015,"25+",12.87
+"United Republic of Tanzania",2015,"25+",6.63
+"United States of America",2015,"25+",12.8
+"United States Virgin Islands",2015,"25+",8.93
+"Uruguay",2015,"25+",9.01
+"Uzbekistan",2015,"25+",10.83
+"Vanuatu",2015,"25+",6.64
+"Venezuela (Bolivarian Republic of)",2015,"25+",9.6
+"Viet Nam",2015,"25+",7.46
+"Western Sahara",2015,"25+",3.3
+"World",2015,"25+",8.34
+"Yemen",2015,"25+",1.69
+"Zambia",2015,"25+",7.56
+"Zimbabwe",2015,"25+",10.67
+"Afghanistan",2015,"20--39",3.75
+"Albania",2015,"20--39",10.82
+"Algeria",2015,"20--39",10.77
+"Angola",2015,"20--39",3.23
+"Antigua and Barbuda",2015,"20--39",11.81
+"Argentina",2015,"20--39",10.75
+"Armenia",2015,"20--39",11.18
+"Aruba",2015,"20--39",10.13
+"Australia",2015,"20--39",14.33
+"Austria",2015,"20--39",12.49
+"Azerbaijan",2015,"20--39",11.52
+"Bahamas",2015,"20--39",13.19
+"Bahrain",2015,"20--39",9.84
+"Bangladesh",2015,"20--39",6.63
+"Barbados",2015,"20--39",11.31
+"Belarus",2015,"20--39",12.11
+"Belgium",2015,"20--39",12.34
+"Belize",2015,"20--39",9.33
+"Benin",2015,"20--39",5.11
+"Bhutan",2015,"20--39",6.41
+"Bolivia (Plurinational State of)",2015,"20--39",10.38
+"Bosnia and Herzegovina",2015,"20--39",12.31
+"Botswana",2015,"20--39",10.71
+"Brazil",2015,"20--39",8.68
+"Brunei Darussalam",2015,"20--39",10.77
+"Bulgaria",2015,"20--39",11.9
+"Burkina Faso",2015,"20--39",3.11
+"Burundi",2015,"20--39",4.77
+"Cambodia",2015,"20--39",6.16
+"Cameroon",2015,"20--39",8.19
+"Canada",2015,"20--39",13.36
+"Cape Verde",2015,"20--39",7.61
+"Central African Republic",2015,"20--39",6.8
+"Chad",2015,"20--39",3.48
+"Channel Islands",2015,"20--39",12.35
+"Chile",2015,"20--39",11.79
+"China",2015,"20--39",9.78
+"Colombia",2015,"20--39",9.41
+"Comoros",2015,"20--39",8.33
+"Congo",2015,"20--39",8.68
+"Costa Rica",2015,"20--39",9.63
+"Cote d'Ivoire",2015,"20--39",5.17
+"Croatia",2015,"20--39",12.44
+"Cuba",2015,"20--39",11.51
+"Curaçao",2015,"20--39",11.7
+"Cyprus",2015,"20--39",13.46
+"Czech Republic",2015,"20--39",13.54
+"Democratic People's Republic of Korea",2015,"20--39",11.01
+"Democratic Republic of the Congo",2015,"20--39",7.19
+"Denmark",2015,"20--39",12.63
+"Djibouti",2015,"20--39",4.77
+"Dominican Republic",2015,"20--39",9.75
+"Ecuador",2015,"20--39",10.07
+"Egypt",2015,"20--39",9.83
+"El Salvador",2015,"20--39",8.97
+"Equatorial Guinea",2015,"20--39",7.92
+"Eritrea",2015,"20--39",4.29
+"Estonia",2015,"20--39",12.94
+"Ethiopia",2015,"20--39",3.86
+"Fiji",2015,"20--39",12.5
+"Finland",2015,"20--39",12.84
+"France",2015,"20--39",12.74
+"French Guiana",2015,"20--39",8.82
+"French Polynesia",2015,"20--39",11.66
+"Gabon",2015,"20--39",9.09
+"Gambia",2015,"20--39",5.22
+"Georgia",2015,"20--39",12.74
+"Germany",2015,"20--39",13.74
+"Ghana",2015,"20--39",8.1
+"Greece",2015,"20--39",12.4
+"Grenada",2015,"20--39",11.34
+"Guadeloupe",2015,"20--39",11.23
+"Guam",2015,"20--39",11.12
+"Guatemala",2015,"20--39",6.82
+"Guinea",2015,"20--39",5.24
+"Guinea-Bissau",2015,"20--39",4.76
+"Guyana",2015,"20--39",10.46
+"Haiti",2015,"20--39",6.99
+"Honduras",2015,"20--39",6.51
+"Hong Kong Special Administrative Region of China",2015,"20--39",13.77
+"Hungary",2015,"20--39",12.73
+"Iceland",2015,"20--39",13.91
+"India",2015,"20--39",8.04
+"Indonesia",2015,"20--39",9.97
+"Iran (Islamic Republic of)",2015,"20--39",10.17
+"Iraq",2015,"20--39",8.08
+"Ireland",2015,"20--39",14.07
+"Israel",2015,"20--39",12.22
+"Italy",2015,"20--39",12.82
+"Jamaica",2015,"20--39",10.76
+"Japan",2015,"20--39",14.11
+"Jordan",2015,"20--39",10.13
+"Kazakhstan",2015,"20--39",11.84
+"Kenya",2015,"20--39",8.58
+"Kiribati",2015,"20--39",10.31
+"Kuwait",2015,"20--39",8.24
+"Kyrgyzstan",2015,"20--39",11.19
+"Lao People's Democratic Republic",2015,"20--39",7.05
+"Latvia",2015,"20--39",12.43
+"Lebanon",2015,"20--39",11.24
+"Lesotho",2015,"20--39",8.16
+"Liberia",2015,"20--39",5.33
+"Libyan Arab Jamahiriya",2015,"20--39",9.4
+"Lithuania",2015,"20--39",13.15
+"Luxembourg",2015,"20--39",13.79
+"Macao Special Administrative Region of China",2015,"20--39",12.76
+"Madagascar",2015,"20--39",4.48
+"Malawi",2015,"20--39",6.77
+"Malaysia",2015,"20--39",12.66
+"Maldives",2015,"20--39",8.64
+"Mali",2015,"20--39",2.61
+"Malta",2015,"20--39",12.36
+"Martinique",2015,"20--39",11.94
+"Mauritania",2015,"20--39",4.91
+"Mauritius",2015,"20--39",10.44
+"Mayotte",2015,"20--39",10.95
+"Mexico",2015,"20--39",10.02
+"Micronesia (Federated States of)",2015,"20--39",9.94
+"Mongolia",2015,"20--39",10.93
+"Montenegro",2015,"20--39",12.23
+"Morocco",2015,"20--39",7.13
+"Mozambique",2015,"20--39",3.64
+"Myanmar",2015,"20--39",7.1
+"Namibia",2015,"20--39",9.1
+"Nepal",2015,"20--39",7.2
+"Netherlands",2015,"20--39",12.83
+"New Caledonia",2015,"20--39",12.57
+"New Zealand",2015,"20--39",13.88
+"Nicaragua",2015,"20--39",7.42
+"Niger",2015,"20--39",2.4
+"Nigeria",2015,"20--39",7.58
+"Norway",2015,"20--39",13.63
+"Occupied Palestinian Territory",2015,"20--39",11.37
+"Oman",2015,"20--39",10.15
+"Pakistan",2015,"20--39",5.95
+"Panama",2015,"20--39",10.67
+"Papua New Guinea",2015,"20--39",7.74
+"Paraguay",2015,"20--39",9.48
+"Peru",2015,"20--39",10.8
+"Philippines",2015,"20--39",9.95
+"Poland",2015,"20--39",13.42
+"Portugal",2015,"20--39",11.14
+"Puerto Rico",2015,"20--39",12.72
+"Qatar",2015,"20--39",9.37
+"Republic of Korea",2015,"20--39",13.65
+"Republic of Moldova",2015,"20--39",11.21
+"Reunion",2015,"20--39",11.37
+"Romania",2015,"20--39",11.86
+"Russian Federation",2015,"20--39",11.84
+"Rwanda",2015,"20--39",5.23
+"Saint Lucia",2015,"20--39",11.43
+"Saint Vincent and the Grenadines",2015,"20--39",11.17
+"Samoa",2015,"20--39",11.05
+"Sao Tome and Principe",2015,"20--39",5.16
+"Saudi Arabia",2015,"20--39",11.28
+"Senegal",2015,"20--39",4.91
+"Serbia",2015,"20--39",12.4
+"Seychelles",2015,"20--39",11.99
+"Sierra Leone",2015,"20--39",4.78
+"Singapore",2015,"20--39",13.16
+"Slovakia",2015,"20--39",13.85
+"Slovenia",2015,"20--39",12.99
+"Solomon Islands",2015,"20--39",7.25
+"Somalia",2015,"20--39",3.76
+"South Africa",2015,"20--39",10.66
+"South Sudan",2015,"20--39",3.08
+"Spain",2015,"20--39",12.22
+"Sri Lanka",2015,"20--39",12.09
+"Sudan",2015,"20--39",5.83
+"Suriname",2015,"20--39",10.72
+"Swaziland",2015,"20--39",10.07
+"Sweden",2015,"20--39",12.99
+"Switzerland",2015,"20--39",13.7
+"Syrian Arab Republic",2015,"20--39",8.04
+"Taiwan Province of China",2015,"20--39",13.35
+"Tajikistan",2015,"20--39",11.85
+"Thailand",2015,"20--39",11.2
+"The former Yugoslav Republic of Macedonia",2015,"20--39",11.45
+"Timor-Leste",2015,"20--39",8.4
+"Togo",2015,"20--39",5.92
+"Tonga",2015,"20--39",11.41
+"Trinidad and Tobago",2015,"20--39",12.41
+"Tunisia",2015,"20--39",10.85
+"Turkey",2015,"20--39",10.32
+"Turkmenistan",2015,"20--39",10.29
+"Uganda",2015,"20--39",7.27
+"Ukraine",2015,"20--39",11.32
+"United Arab Emirates",2015,"20--39",10.64
+"United Kingdom of Great Britain and Northern Ireland",2015,"20--39",13.64
+"United Republic of Tanzania",2015,"20--39",7.73
+"United States of America",2015,"20--39",12.9
+"United States Virgin Islands",2015,"20--39",11.5
+"Uruguay",2015,"20--39",9.83
+"Uzbekistan",2015,"20--39",11.89
+"Vanuatu",2015,"20--39",7.86
+"Venezuela (Bolivarian Republic of)",2015,"20--39",10.72
+"Viet Nam",2015,"20--39",8.66
+"Western Sahara",2015,"20--39",4.18
+"World",2015,"20--39",9.31
+"Yemen",2015,"20--39",3.11
+"Zambia",2015,"20--39",8.25
+"Zimbabwe",2015,"20--39",11.23
+"Afghanistan",2015,"40--64",1.94
+"Albania",2015,"40--64",10.35
+"Algeria",2015,"40--64",8.04
+"Angola",2015,"40--64",2.25
+"Antigua and Barbuda",2015,"40--64",9.86
+"Argentina",2015,"40--64",9.77
+"Armenia",2015,"40--64",10.88
+"Aruba",2015,"40--64",9.04
+"Australia",2015,"40--64",13.09
+"Austria",2015,"40--64",11.92
+"Azerbaijan",2015,"40--64",10.39
+"Bahamas",2015,"40--64",12.68
+"Bahrain",2015,"40--64",8.61
+"Bangladesh",2015,"40--64",4.11
+"Barbados",2015,"40--64",9.42
+"Belarus",2015,"40--64",11.09
+"Belgium",2015,"40--64",11.65
+"Belize",2015,"40--64",7.74
+"Benin",2015,"40--64",2.75
+"Bhutan",2015,"40--64",2.7
+"Bolivia (Plurinational State of)",2015,"40--64",8.15
+"Bosnia and Herzegovina",2015,"40--64",10.42
+"Botswana",2015,"40--64",7.87
+"Brazil",2015,"40--64",5.92
+"Brunei Darussalam",2015,"40--64",8.47
+"Bulgaria",2015,"40--64",11.55
+"Burkina Faso",2015,"40--64",1.45
+"Burundi",2015,"40--64",2.19
+"Cambodia",2015,"40--64",3.82
+"Cameroon",2015,"40--64",5.97
+"Canada",2015,"40--64",13.23
+"Cape Verde",2015,"40--64",4.8
+"Central African Republic",2015,"40--64",3.99
+"Chad",2015,"40--64",1.69
+"Channel Islands",2015,"40--64",11.85
+"Chile",2015,"40--64",10.85
+"China",2015,"40--64",7.68
+"Colombia",2015,"40--64",7.43
+"Comoros",2015,"40--64",4.97
+"Congo",2015,"40--64",7.98
+"Costa Rica",2015,"40--64",8.57
+"Cote d'Ivoire",2015,"40--64",3.62
+"Croatia",2015,"40--64",11.73
+"Cuba",2015,"40--64",11.07
+"Curaçao",2015,"40--64",9.82
+"Cyprus",2015,"40--64",12.5
+"Czech Republic",2015,"40--64",12.59
+"Democratic People's Republic of Korea",2015,"40--64",11.01
+"Democratic Republic of the Congo",2015,"40--64",5.88
+"Denmark",2015,"40--64",12.59
+"Djibouti",2015,"40--64",2.83
+"Dominican Republic",2015,"40--64",7.49
+"Ecuador",2015,"40--64",8.49
+"Egypt",2015,"40--64",6.78
+"El Salvador",2015,"40--64",6.74
+"Equatorial Guinea",2015,"40--64",6.24
+"Eritrea",2015,"40--64",2.55
+"Estonia",2015,"40--64",13.53
+"Ethiopia",2015,"40--64",1.77
+"Fiji",2015,"40--64",10.3
+"Finland",2015,"40--64",13.17
+"France",2015,"40--64",11.69
+"French Guiana",2015,"40--64",8.21
+"French Polynesia",2015,"40--64",10.13
+"Gabon",2015,"40--64",8.12
+"Gambia",2015,"40--64",2.53
+"Georgia",2015,"40--64",12.57
+"Germany",2015,"40--64",13.72
+"Ghana",2015,"40--64",6.63
+"Greece",2015,"40--64",11.34
+"Grenada",2015,"40--64",9.45
+"Guadeloupe",2015,"40--64",9.52
+"Guam",2015,"40--64",9.47
+"Guatemala",2015,"40--64",4.98
+"Guinea",2015,"40--64",2.34
+"Guinea-Bissau",2015,"40--64",2.67
+"Guyana",2015,"40--64",9.57
+"Haiti",2015,"40--64",3.39
+"Honduras",2015,"40--64",4.8
+"Hong Kong Special Administrative Region of China",2015,"40--64",11.65
+"Hungary",2015,"40--64",12.15
+"Iceland",2015,"40--64",13.26
+"India",2015,"40--64",5.42
+"Indonesia",2015,"40--64",7.92
+"Iran (Islamic Republic of)",2015,"40--64",7.52
+"Iraq",2015,"40--64",7.33
+"Ireland",2015,"40--64",11.37
+"Israel",2015,"40--64",11.47
+"Italy",2015,"40--64",11.41
+"Jamaica",2015,"40--64",9.93
+"Japan",2015,"40--64",13.6
+"Jordan",2015,"40--64",9.7
+"Kazakhstan",2015,"40--64",10.67
+"Kenya",2015,"40--64",7.61
+"Kiribati",2015,"40--64",8.07
+"Kuwait",2015,"40--64",7.8
+"Kyrgyzstan",2015,"40--64",10.38
+"Lao People's Democratic Republic",2015,"40--64",5.43
+"Latvia",2015,"40--64",12.73
+"Lebanon",2015,"40--64",9.18
+"Lesotho",2015,"40--64",6.3
+"Liberia",2015,"40--64",4.02
+"Libyan Arab Jamahiriya",2015,"40--64",6.19
+"Lithuania",2015,"40--64",13.72
+"Luxembourg",2015,"40--64",12.66
+"Macao Special Administrative Region of China",2015,"40--64",10
+"Madagascar",2015,"40--64",4.47
+"Malawi",2015,"40--64",4.62
+"Malaysia",2015,"40--64",10.04
+"Maldives",2015,"40--64",4.73
+"Mali",2015,"40--64",1.47
+"Malta",2015,"40--64",10.12
+"Martinique",2015,"40--64",10.44
+"Mauritania",2015,"40--64",2.95
+"Mauritius",2015,"40--64",8.32
+"Mayotte",2015,"40--64",8.73
+"Mexico",2015,"40--64",8.36
+"Micronesia (Federated States of)",2015,"40--64",9.3
+"Mongolia",2015,"40--64",9.8
+"Montenegro",2015,"40--64",11.75
+"Morocco",2015,"40--64",3.77
+"Mozambique",2015,"40--64",1.48
+"Myanmar",2015,"40--64",5.44
+"Namibia",2015,"40--64",7.11
+"Nepal",2015,"40--64",3.21
+"Netherlands",2015,"40--64",12.13
+"New Caledonia",2015,"40--64",10.48
+"New Zealand",2015,"40--64",13.22
+"Nicaragua",2015,"40--64",5.72
+"Niger",2015,"40--64",1.14
+"Nigeria",2015,"40--64",5.17
+"Norway",2015,"40--64",12.66
+"Occupied Palestinian Territory",2015,"40--64",9.45
+"Oman",2015,"40--64",6.75
+"Pakistan",2015,"40--64",3.55
+"Panama",2015,"40--64",9.64
+"Papua New Guinea",2015,"40--64",5.64
+"Paraguay",2015,"40--64",7.66
+"Peru",2015,"40--64",9.42
+"Philippines",2015,"40--64",8.66
+"Poland",2015,"40--64",12.7
+"Portugal",2015,"40--64",8.11
+"Puerto Rico",2015,"40--64",12.17
+"Qatar",2015,"40--64",9.19
+"Republic of Korea",2015,"40--64",12.34
+"Republic of Moldova",2015,"40--64",10.9
+"Reunion",2015,"40--64",8.8
+"Romania",2015,"40--64",11.49
+"Russian Federation",2015,"40--64",9.81
+"Rwanda",2015,"40--64",3.16
+"Saint Lucia",2015,"40--64",9.64
+"Saint Vincent and the Grenadines",2015,"40--64",10.41
+"Samoa",2015,"40--64",10.35
+"Sao Tome and Principe",2015,"40--64",3.65
+"Saudi Arabia",2015,"40--64",8.63
+"Senegal",2015,"40--64",2.89
+"Serbia",2015,"40--64",11.78
+"Seychelles",2015,"40--64",9.39
+"Sierra Leone",2015,"40--64",3.34
+"Singapore",2015,"40--64",12.26
+"Slovakia",2015,"40--64",12.72
+"Slovenia",2015,"40--64",11.62
+"Solomon Islands",2015,"40--64",5.72
+"Somalia",2015,"40--64",2.43
+"South Africa",2015,"40--64",9.15
+"South Sudan",2015,"40--64",1.76
+"Spain",2015,"40--64",10.95
+"Sri Lanka",2015,"40--64",9.47
+"Sudan",2015,"40--64",3.46
+"Suriname",2015,"40--64",9.6
+"Swaziland",2015,"40--64",8.04
+"Sweden",2015,"40--64",12.59
+"Switzerland",2015,"40--64",13.16
+"Syrian Arab Republic",2015,"40--64",6.09
+"Taiwan Province of China",2015,"40--64",11.59
+"Tajikistan",2015,"40--64",11.69
+"Thailand",2015,"40--64",9.45
+"The former Yugoslav Republic of Macedonia",2015,"40--64",9.91
+"Timor-Leste",2015,"40--64",4.16
+"Togo",2015,"40--64",3.93
+"Tonga",2015,"40--64",10.49
+"Trinidad and Tobago",2015,"40--64",10.8
+"Tunisia",2015,"40--64",6.8
+"Turkey",2015,"40--64",7.87
+"Turkmenistan",2015,"40--64",11.41
+"Uganda",2015,"40--64",5.21
+"Ukraine",2015,"40--64",10.68
+"United Arab Emirates",2015,"40--64",9.5
+"United Kingdom of Great Britain and Northern Ireland",2015,"40--64",12.95
+"United Republic of Tanzania",2015,"40--64",6.14
+"United States of America",2015,"40--64",12.87
+"United States Virgin Islands",2015,"40--64",9.03
+"Uruguay",2015,"40--64",9.27
+"Uzbekistan",2015,"40--64",10.23
+"Vanuatu",2015,"40--64",6.1
+"Venezuela (Bolivarian Republic of)",2015,"40--64",9.32
+"Viet Nam",2015,"40--64",7.36
+"Western Sahara",2015,"40--64",2.62
+"World",2015,"40--64",8.1
+"Yemen",2015,"40--64",0.57
+"Zambia",2015,"40--64",7.2
+"Zimbabwe",2015,"40--64",10.23
+"Afghanistan",2015,"60+",1.28
+"Albania",2015,"60+",8.54
+"Algeria",2015,"60+",3.98
+"Angola",2015,"60+",1.06
+"Antigua and Barbuda",2015,"60+",7.62
+"Argentina",2015,"60+",8.16
+"Armenia",2015,"60+",10.2
+"Aruba",2015,"60+",7.08
+"Australia",2015,"60+",11.75
+"Austria",2015,"60+",10.03
+"Azerbaijan",2015,"60+",9.41
+"Bahamas",2015,"60+",10.51
+"Bahrain",2015,"60+",6.77
+"Bangladesh",2015,"60+",2.81
+"Barbados",2015,"60+",7.34
+"Belarus",2015,"60+",9.54
+"Belgium",2015,"60+",9.94
+"Belize",2015,"60+",6.54
+"Benin",2015,"60+",1.62
+"Bhutan",2015,"60+",0.99
+"Bolivia (Plurinational State of)",2015,"60+",5.85
+"Bosnia and Herzegovina",2015,"60+",6.97
+"Botswana",2015,"60+",4.16
+"Brazil",2015,"60+",4.01
+"Brunei Darussalam",2015,"60+",5.79
+"Bulgaria",2015,"60+",10.52
+"Burkina Faso",2015,"60+",0.62
+"Burundi",2015,"60+",1.46
+"Cambodia",2015,"60+",3
+"Cameroon",2015,"60+",3.86
+"Canada",2015,"60+",12.21
+"Cape Verde",2015,"60+",2.91
+"Central African Republic",2015,"60+",1.49
+"Chad",2015,"60+",0.74
+"Channel Islands",2015,"60+",11.13
+"Chile",2015,"60+",8.9
+"China",2015,"60+",5.44
+"Colombia",2015,"60+",5.32
+"Comoros",2015,"60+",1.87
+"Congo",2015,"60+",4.87
+"Costa Rica",2015,"60+",7.01
+"Cote d'Ivoire",2015,"60+",1.98
+"Croatia",2015,"60+",9.91
+"Cuba",2015,"60+",9.54
+"Curaçao",2015,"60+",8.74
+"Cyprus",2015,"60+",9.56
+"Czech Republic",2015,"60+",11.84
+"Democratic People's Republic of Korea",2015,"60+",9.76
+"Democratic Republic of the Congo",2015,"60+",3.49
+"Denmark",2015,"60+",11.8
+"Djibouti",2015,"60+",1.34
+"Dominican Republic",2015,"60+",4.79
+"Ecuador",2015,"60+",5.8
+"Egypt",2015,"60+",4.26
+"El Salvador",2015,"60+",4.19
+"Equatorial Guinea",2015,"60+",4.2
+"Eritrea",2015,"60+",1.24
+"Estonia",2015,"60+",12.7
+"Ethiopia",2015,"60+",0.77
+"Fiji",2015,"60+",7.91
+"Finland",2015,"60+",11.2
+"France",2015,"60+",9.64
+"French Guiana",2015,"60+",7.04
+"French Polynesia",2015,"60+",8.18
+"Gabon",2015,"60+",4.91
+"Gambia",2015,"60+",1.04
+"Georgia",2015,"60+",11.56
+"Germany",2015,"60+",12.95
+"Ghana",2015,"60+",5.25
+"Greece",2015,"60+",8.54
+"Grenada",2015,"60+",7.3
+"Guadeloupe",2015,"60+",6.8
+"Guam",2015,"60+",7.31
+"Guatemala",2015,"60+",3.36
+"Guinea",2015,"60+",1.74
+"Guinea-Bissau",2015,"60+",0.99
+"Guyana",2015,"60+",8.73
+"Haiti",2015,"60+",1.81
+"Honduras",2015,"60+",2.87
+"Hong Kong Special Administrative Region of China",2015,"60+",7.71
+"Hungary",2015,"60+",10.82
+"Iceland",2015,"60+",12.26
+"India",2015,"60+",3.85
+"Indonesia",2015,"60+",5.45
+"Iran (Islamic Republic of)",2015,"60+",4.43
+"Iraq",2015,"60+",4.37
+"Ireland",2015,"60+",9.38
+"Israel",2015,"60+",10.51
+"Italy",2015,"60+",8.48
+"Jamaica",2015,"60+",7.29
+"Japan",2015,"60+",11.76
+"Jordan",2015,"60+",8.18
+"Kazakhstan",2015,"60+",9.36
+"Kenya",2015,"60+",4.34
+"Kiribati",2015,"60+",5.7
+"Kuwait",2015,"60+",7.6
+"Kyrgyzstan",2015,"60+",9.38
+"Lao People's Democratic Republic",2015,"60+",3.64
+"Latvia",2015,"60+",11.91
+"Lebanon",2015,"60+",6.25
+"Lesotho",2015,"60+",4.29
+"Liberia",2015,"60+",2.18
+"Libyan Arab Jamahiriya",2015,"60+",3.11
+"Lithuania",2015,"60+",11.84
+"Luxembourg",2015,"60+",11.15
+"Macao Special Administrative Region of China",2015,"60+",6.75
+"Madagascar",2015,"60+",3.17
+"Malawi",2015,"60+",2.92
+"Malaysia",2015,"60+",6.51
+"Maldives",2015,"60+",2.77
+"Mali",2015,"60+",0.76
+"Malta",2015,"60+",8.24
+"Martinique",2015,"60+",8.21
+"Mauritania",2015,"60+",2.05
+"Mauritius",2015,"60+",5.99
+"Mayotte",2015,"60+",5.92
+"Mexico",2015,"60+",5.37
+"Micronesia (Federated States of)",2015,"60+",7.65
+"Mongolia",2015,"60+",8.43
+"Montenegro",2015,"60+",10.04
+"Morocco",2015,"60+",1.72
+"Mozambique",2015,"60+",0.8
+"Myanmar",2015,"60+",3.96
+"Namibia",2015,"60+",4.13
+"Nepal",2015,"60+",1.6
+"Netherlands",2015,"60+",10.76
+"New Caledonia",2015,"60+",7.6
+"New Zealand",2015,"60+",11.65
+"Nicaragua",2015,"60+",3.64
+"Niger",2015,"60+",0.44
+"Nigeria",2015,"60+",2.45
+"Norway",2015,"60+",11.91
+"Occupied Palestinian Territory",2015,"60+",6.61
+"Oman",2015,"60+",2.75
+"Pakistan",2015,"60+",2.24
+"Panama",2015,"60+",7.23
+"Papua New Guinea",2015,"60+",3.47
+"Paraguay",2015,"60+",5.91
+"Peru",2015,"60+",7.26
+"Philippines",2015,"60+",7.43
+"Poland",2015,"60+",11.42
+"Portugal",2015,"60+",4.45
+"Puerto Rico",2015,"60+",9.98
+"Qatar",2015,"60+",7.72
+"Republic of Korea",2015,"60+",8.58
+"Republic of Moldova",2015,"60+",8.96
+"Reunion",2015,"60+",6.04
+"Romania",2015,"60+",9.52
+"Russian Federation",2015,"60+",8.41
+"Rwanda",2015,"60+",1.69
+"Saint Lucia",2015,"60+",7.36
+"Saint Vincent and the Grenadines",2015,"60+",8.85
+"Samoa",2015,"60+",8.69
+"Sao Tome and Principe",2015,"60+",1.38
+"Saudi Arabia",2015,"60+",4.29
+"Senegal",2015,"60+",2.01
+"Serbia",2015,"60+",9.75
+"Seychelles",2015,"60+",6.75
+"Sierra Leone",2015,"60+",2.27
+"Singapore",2015,"60+",7.93
+"Slovakia",2015,"60+",11.83
+"Slovenia",2015,"60+",10.83
+"Solomon Islands",2015,"60+",3.92
+"Somalia",2015,"60+",1.47
+"South Africa",2015,"60+",6.8
+"South Sudan",2015,"60+",0.85
+"Spain",2015,"60+",7.66
+"Sri Lanka",2015,"60+",7.12
+"Sudan",2015,"60+",1.43
+"Suriname",2015,"60+",7.92
+"Swaziland",2015,"60+",4.86
+"Sweden",2015,"60+",10.92
+"Switzerland",2015,"60+",11.96
+"Syrian Arab Republic",2015,"60+",3.91
+"Taiwan Province of China",2015,"60+",8.2
+"Tajikistan",2015,"60+",10.47
+"Thailand",2015,"60+",7.9
+"The former Yugoslav Republic of Macedonia",2015,"60+",6.87
+"Timor-Leste",2015,"60+",0.99
+"Togo",2015,"60+",1.9
+"Tonga",2015,"60+",8.79
+"Trinidad and Tobago",2015,"60+",8.87
+"Tunisia",2015,"60+",3.23
+"Turkey",2015,"60+",5.17
+"Turkmenistan",2015,"60+",10.6
+"Uganda",2015,"60+",3.64
+"Ukraine",2015,"60+",9.82
+"United Arab Emirates",2015,"60+",8.8
+"United Kingdom of Great Britain and Northern Ireland",2015,"60+",11.91
+"United Republic of Tanzania",2015,"60+",3.52
+"United States of America",2015,"60+",12.47
+"United States Virgin Islands",2015,"60+",6.94
+"Uruguay",2015,"60+",7.66
+"Uzbekistan",2015,"60+",9.04
+"Vanuatu",2015,"60+",4.02
+"Venezuela (Bolivarian Republic of)",2015,"60+",7.32
+"Viet Nam",2015,"60+",5.3
+"Western Sahara",2015,"60+",2
+"World",2015,"60+",6.98
+"Yemen",2015,"60+",0.04
+"Zambia",2015,"60+",5.26
+"Zimbabwe",2015,"60+",6.46
+"Afghanistan",2015,"65+",1
+"Albania",2015,"65+",7.85
+"Algeria",2015,"65+",3.18
+"Angola",2015,"65+",0.88
+"Antigua and Barbuda",2015,"65+",6.98
+"Argentina",2015,"65+",7.86
+"Armenia",2015,"65+",9.91
+"Aruba",2015,"65+",6.6
+"Australia",2015,"65+",11.44
+"Austria",2015,"65+",9.68
+"Azerbaijan",2015,"65+",8.86
+"Bahamas",2015,"65+",9.81
+"Bahrain",2015,"65+",5.92
+"Bangladesh",2015,"65+",2.63
+"Barbados",2015,"65+",6.86
+"Belarus",2015,"65+",9.04
+"Belgium",2015,"65+",9.62
+"Belize",2015,"65+",6.29
+"Benin",2015,"65+",1.38
+"Bhutan",2015,"65+",0.71
+"Bolivia (Plurinational State of)",2015,"65+",5.41
+"Bosnia and Herzegovina",2015,"65+",6.11
+"Botswana",2015,"65+",3.48
+"Brazil",2015,"65+",3.62
+"Brunei Darussalam",2015,"65+",5.1
+"Bulgaria",2015,"65+",10.23
+"Burkina Faso",2015,"65+",0.47
+"Burundi",2015,"65+",1.22
+"Cambodia",2015,"65+",2.6
+"Cameroon",2015,"65+",3.32
+"Canada",2015,"65+",11.96
+"Cape Verde",2015,"65+",2.51
+"Central African Republic",2015,"65+",1.08
+"Chad",2015,"65+",0.56
+"Channel Islands",2015,"65+",10.97
+"Chile",2015,"65+",8.39
+"China",2015,"65+",4.98
+"Colombia",2015,"65+",4.78
+"Comoros",2015,"65+",1.24
+"Congo",2015,"65+",3.94
+"Costa Rica",2015,"65+",6.53
+"Cote d'Ivoire",2015,"65+",1.54
+"Croatia",2015,"65+",9.44
+"Cuba",2015,"65+",8.94
+"Curaçao",2015,"65+",8.46
+"Cyprus",2015,"65+",8.87
+"Czech Republic",2015,"65+",11.7
+"Democratic People's Republic of Korea",2015,"65+",9.41
+"Democratic Republic of the Congo",2015,"65+",3.04
+"Denmark",2015,"65+",11.66
+"Djibouti",2015,"65+",1.16
+"Dominican Republic",2015,"65+",4.24
+"Ecuador",2015,"65+",5.17
+"Egypt",2015,"65+",3.76
+"El Salvador",2015,"65+",3.76
+"Equatorial Guinea",2015,"65+",3.56
+"Eritrea",2015,"65+",1.07
+"Estonia",2015,"65+",12.43
+"Ethiopia",2015,"65+",0.63
+"Fiji",2015,"65+",7.35
+"Finland",2015,"65+",10.75
+"France",2015,"65+",9.28
+"French Guiana",2015,"65+",6.65
+"French Polynesia",2015,"65+",7.68
+"Gabon",2015,"65+",3.95
+"Gambia",2015,"65+",0.82
+"Georgia",2015,"65+",11.24
+"Germany",2015,"65+",12.78
+"Ghana",2015,"65+",4.52
+"Greece",2015,"65+",8.03
+"Grenada",2015,"65+",6.79
+"Guadeloupe",2015,"65+",6.26
+"Guam",2015,"65+",6.82
+"Guatemala",2015,"65+",3.07
+"Guinea",2015,"65+",1.41
+"Guinea-Bissau",2015,"65+",0.72
+"Guyana",2015,"65+",8.46
+"Haiti",2015,"65+",1.61
+"Honduras",2015,"65+",2.51
+"Hong Kong Special Administrative Region of China",2015,"65+",6.97
+"Hungary",2015,"65+",10.41
+"Iceland",2015,"65+",12.01
+"India",2015,"65+",3.4
+"Indonesia",2015,"65+",4.87
+"Iran (Islamic Republic of)",2015,"65+",3.67
+"Iraq",2015,"65+",3.72
+"Ireland",2015,"65+",9.06
+"Israel",2015,"65+",10.22
+"Italy",2015,"65+",7.92
+"Jamaica",2015,"65+",6.78
+"Japan",2015,"65+",11.46
+"Jordan",2015,"65+",7.61
+"Kazakhstan",2015,"65+",8.74
+"Kenya",2015,"65+",3.65
+"Kiribati",2015,"65+",5.12
+"Kuwait",2015,"65+",6.77
+"Kyrgyzstan",2015,"65+",8.69
+"Lao People's Democratic Republic",2015,"65+",3.14
+"Latvia",2015,"65+",11.67
+"Lebanon",2015,"65+",5.66
+"Lesotho",2015,"65+",3.99
+"Liberia",2015,"65+",1.77
+"Libyan Arab Jamahiriya",2015,"65+",2.48
+"Lithuania",2015,"65+",11.25
+"Luxembourg",2015,"65+",10.85
+"Macao Special Administrative Region of China",2015,"65+",5.73
+"Madagascar",2015,"65+",2.77
+"Malawi",2015,"65+",2.66
+"Malaysia",2015,"65+",5.59
+"Maldives",2015,"65+",2.64
+"Mali",2015,"65+",0.57
+"Malta",2015,"65+",7.97
+"Martinique",2015,"65+",7.72
+"Mauritania",2015,"65+",1.74
+"Mauritius",2015,"65+",5.25
+"Mayotte",2015,"65+",5.28
+"Mexico",2015,"65+",4.73
+"Micronesia (Federated States of)",2015,"65+",6.49
+"Mongolia",2015,"65+",7.99
+"Montenegro",2015,"65+",9.43
+"Morocco",2015,"65+",1.2
+"Mozambique",2015,"65+",0.62
+"Myanmar",2015,"65+",3.56
+"Namibia",2015,"65+",3.68
+"Nepal",2015,"65+",1.3
+"Netherlands",2015,"65+",10.51
+"New Caledonia",2015,"65+",7.03
+"New Zealand",2015,"65+",11.3
+"Nicaragua",2015,"65+",3.13
+"Niger",2015,"65+",0.29
+"Nigeria",2015,"65+",2.17
+"Norway",2015,"65+",11.73
+"Occupied Palestinian Territory",2015,"65+",5.94
+"Oman",2015,"65+",1.88
+"Pakistan",2015,"65+",2.04
+"Panama",2015,"65+",6.65
+"Papua New Guinea",2015,"65+",2.92
+"Paraguay",2015,"65+",5.56
+"Peru",2015,"65+",6.73
+"Philippines",2015,"65+",7.1
+"Poland",2015,"65+",11.09
+"Portugal",2015,"65+",3.97
+"Puerto Rico",2015,"65+",9.45
+"Qatar",2015,"65+",6.6
+"Republic of Korea",2015,"65+",7.77
+"Republic of Moldova",2015,"65+",7.81
+"Reunion",2015,"65+",5.33
+"Romania",2015,"65+",8.92
+"Russian Federation",2015,"65+",7.81
+"Rwanda",2015,"65+",1.48
+"Saint Lucia",2015,"65+",6.85
+"Saint Vincent and the Grenadines",2015,"65+",8.41
+"Samoa",2015,"65+",8.36
+"Sao Tome and Principe",2015,"65+",0.96
+"Saudi Arabia",2015,"65+",3.45
+"Senegal",2015,"65+",1.73
+"Serbia",2015,"65+",9.11
+"Seychelles",2015,"65+",5.95
+"Sierra Leone",2015,"65+",1.99
+"Singapore",2015,"65+",6.82
+"Slovakia",2015,"65+",11.58
+"Slovenia",2015,"65+",10.78
+"Solomon Islands",2015,"65+",3.44
+"Somalia",2015,"65+",1.33
+"South Africa",2015,"65+",6.4
+"South Sudan",2015,"65+",0.78
+"Spain",2015,"65+",7.08
+"Sri Lanka",2015,"65+",6.71
+"Sudan",2015,"65+",1.15
+"Suriname",2015,"65+",7.49
+"Swaziland",2015,"65+",4.12
+"Sweden",2015,"65+",10.61
+"Switzerland",2015,"65+",11.74
+"Syrian Arab Republic",2015,"65+",3.41
+"Taiwan Province of China",2015,"65+",7.36
+"Tajikistan",2015,"65+",9.72
+"Thailand",2015,"65+",7.52
+"The former Yugoslav Republic of Macedonia",2015,"65+",5.9
+"Timor-Leste",2015,"65+",0.6
+"Togo",2015,"65+",1.59
+"Tonga",2015,"65+",8.51
+"Trinidad and Tobago",2015,"65+",8.45
+"Tunisia",2015,"65+",2.22
+"Turkey",2015,"65+",4.62
+"Turkmenistan",2015,"65+",10.16
+"Uganda",2015,"65+",3.3
+"Ukraine",2015,"65+",9.47
+"United Arab Emirates",2015,"65+",8.09
+"United Kingdom of Great Britain and Northern Ireland",2015,"65+",11.7
+"United Republic of Tanzania",2015,"65+",3
+"United States of America",2015,"65+",12.3
+"United States Virgin Islands",2015,"65+",6.5
+"Uruguay",2015,"65+",7.29
+"Uzbekistan",2015,"65+",8.37
+"Vanuatu",2015,"65+",3.56
+"Venezuela (Bolivarian Republic of)",2015,"65+",6.79
+"Viet Nam",2015,"65+",4.57
+"Western Sahara",2015,"65+",1.68
+"World",2015,"65+",6.76
+"Yemen",2015,"65+",0.02
+"Zambia",2015,"65+",4.7
+"Zimbabwe",2015,"65+",5.9
+"Afghanistan",2015,"80+",0.44
+"Albania",2015,"80+",5.35
+"Algeria",2015,"80+",1.19
+"Angola",2015,"80+",0.52
+"Antigua and Barbuda",2015,"80+",5.52
+"Argentina",2015,"80+",6.97
+"Armenia",2015,"80+",8.17
+"Aruba",2015,"80+",4.92
+"Australia",2015,"80+",10.3
+"Austria",2015,"80+",8.55
+"Azerbaijan",2015,"80+",7.35
+"Bahamas",2015,"80+",8.01
+"Bahrain",2015,"80+",3.18
+"Bangladesh",2015,"80+",2.1
+"Barbados",2015,"80+",5.57
+"Belarus",2015,"80+",7.37
+"Belgium",2015,"80+",8.69
+"Belize",2015,"80+",5.16
+"Benin",2015,"80+",0.68
+"Bhutan",2015,"80+",0.32
+"Bolivia (Plurinational State of)",2015,"80+",4.4
+"Bosnia and Herzegovina",2015,"80+",3.83
+"Botswana",2015,"80+",2.04
+"Brazil",2015,"80+",2.95
+"Brunei Darussalam",2015,"80+",3.54
+"Bulgaria",2015,"80+",9.08
+"Burkina Faso",2015,"80+",0.16
+"Burundi",2015,"80+",0.64
+"Cambodia",2015,"80+",1.73
+"Cameroon",2015,"80+",1.99
+"Canada",2015,"80+",10.89
+"Cape Verde",2015,"80+",1.76
+"Central African Republic",2015,"80+",0.22
+"Chad",2015,"80+",0.1
+"Channel Islands",2015,"80+",10.52
+"Chile",2015,"80+",7.02
+"China",2015,"80+",3.38
+"Colombia",2015,"80+",3.63
+"Comoros",2015,"80+",0.52
+"Congo",2015,"80+",1.75
+"Costa Rica",2015,"80+",5.23
+"Cote d'Ivoire",2015,"80+",0.62
+"Croatia",2015,"80+",7.56
+"Cuba",2015,"80+",6.66
+"Curaçao",2015,"80+",7.41
+"Cyprus",2015,"80+",6.3
+"Czech Republic",2015,"80+",10.96
+"Democratic People's Republic of Korea",2015,"80+",6.94
+"Democratic Republic of the Congo",2015,"80+",2.06
+"Denmark",2015,"80+",10.87
+"Djibouti",2015,"80+",0.68
+"Dominican Republic",2015,"80+",3.15
+"Ecuador",2015,"80+",3.98
+"Egypt",2015,"80+",2.19
+"El Salvador",2015,"80+",2.68
+"Equatorial Guinea",2015,"80+",1.81
+"Eritrea",2015,"80+",0.62
+"Estonia",2015,"80+",11.34
+"Ethiopia",2015,"80+",0.38
+"Fiji",2015,"80+",5.87
+"Finland",2015,"80+",9.13
+"France",2015,"80+",8.02
+"French Guiana",2015,"80+",5.37
+"French Polynesia",2015,"80+",5.6
+"Gabon",2015,"80+",1.45
+"Gambia",2015,"80+",0.57
+"Georgia",2015,"80+",9.55
+"Germany",2015,"80+",12.01
+"Ghana",2015,"80+",2.66
+"Greece",2015,"80+",6.49
+"Grenada",2015,"80+",5.48
+"Guadeloupe",2015,"80+",4.65
+"Guam",2015,"80+",5.57
+"Guatemala",2015,"80+",2.46
+"Guinea",2015,"80+",0.41
+"Guinea-Bissau",2015,"80+",0.29
+"Guyana",2015,"80+",7.23
+"Haiti",2015,"80+",1.22
+"Honduras",2015,"80+",1.82
+"Hong Kong Special Administrative Region of China",2015,"80+",4.45
+"Hungary",2015,"80+",8.53
+"Iceland",2015,"80+",11.25
+"India",2015,"80+",2.58
+"Indonesia",2015,"80+",3.37
+"Iran (Islamic Republic of)",2015,"80+",1.83
+"Iraq",2015,"80+",1.46
+"Ireland",2015,"80+",8.27
+"Israel",2015,"80+",8.93
+"Italy",2015,"80+",6.33
+"Jamaica",2015,"80+",5.75
+"Japan",2015,"80+",10.56
+"Jordan",2015,"80+",3.41
+"Kazakhstan",2015,"80+",7.09
+"Kenya",2015,"80+",2
+"Kiribati",2015,"80+",3.41
+"Kuwait",2015,"80+",3.48
+"Kyrgyzstan",2015,"80+",6.69
+"Lao People's Democratic Republic",2015,"80+",1.94
+"Latvia",2015,"80+",10.71
+"Lebanon",2015,"80+",3.65
+"Lesotho",2015,"80+",3.34
+"Liberia",2015,"80+",0.88
+"Libyan Arab Jamahiriya",2015,"80+",1.23
+"Lithuania",2015,"80+",8.65
+"Luxembourg",2015,"80+",9.7
+"Macao Special Administrative Region of China",2015,"80+",3.05
+"Madagascar",2015,"80+",1.87
+"Malawi",2015,"80+",1.78
+"Malaysia",2015,"80+",3.13
+"Maldives",2015,"80+",2.2
+"Mali",2015,"80+",0.35
+"Malta",2015,"80+",6.84
+"Martinique",2015,"80+",6.21
+"Mauritania",2015,"80+",0.81
+"Mauritius",2015,"80+",3.17
+"Mayotte",2015,"80+",3.19
+"Mexico",2015,"80+",3.43
+"Micronesia (Federated States of)",2015,"80+",2.85
+"Mongolia",2015,"80+",5.99
+"Montenegro",2015,"80+",7.64
+"Morocco",2015,"80+",0.35
+"Mozambique",2015,"80+",0.32
+"Myanmar",2015,"80+",2.5
+"Namibia",2015,"80+",3.01
+"Nepal",2015,"80+",0.71
+"Netherlands",2015,"80+",9.51
+"New Caledonia",2015,"80+",5.97
+"New Zealand",2015,"80+",9.91
+"Nicaragua",2015,"80+",2.39
+"Niger",2015,"80+",0.07
+"Nigeria",2015,"80+",1.29
+"Norway",2015,"80+",11.01
+"Occupied Palestinian Territory",2015,"80+",2.76
+"Oman",2015,"80+",0.8
+"Pakistan",2015,"80+",1.5
+"Panama",2015,"80+",5.38
+"Papua New Guinea",2015,"80+",1.76
+"Paraguay",2015,"80+",4.64
+"Peru",2015,"80+",5.19
+"Philippines",2015,"80+",6.12
+"Poland",2015,"80+",10.01
+"Portugal",2015,"80+",2.73
+"Puerto Rico",2015,"80+",7.86
+"Qatar",2015,"80+",3.91
+"Republic of Korea",2015,"80+",5.02
+"Republic of Moldova",2015,"80+",3.95
+"Reunion",2015,"80+",3.21
+"Romania",2015,"80+",7.28
+"Russian Federation",2015,"80+",5.47
+"Rwanda",2015,"80+",1.02
+"Saint Lucia",2015,"80+",5.37
+"Saint Vincent and the Grenadines",2015,"80+",7.03
+"Samoa",2015,"80+",7.27
+"Sao Tome and Principe",2015,"80+",0.38
+"Saudi Arabia",2015,"80+",2.42
+"Senegal",2015,"80+",0.81
+"Serbia",2015,"80+",6.47
+"Seychelles",2015,"80+",3.69
+"Sierra Leone",2015,"80+",1.2
+"Singapore",2015,"80+",3.78
+"Slovakia",2015,"80+",10.53
+"Slovenia",2015,"80+",10.57
+"Solomon Islands",2015,"80+",2.29
+"Somalia",2015,"80+",0.81
+"South Africa",2015,"80+",5.2
+"South Sudan",2015,"80+",0.58
+"Spain",2015,"80+",5.5
+"Sri Lanka",2015,"80+",4.8
+"Sudan",2015,"80+",0.57
+"Suriname",2015,"80+",6.44
+"Swaziland",2015,"80+",2.17
+"Sweden",2015,"80+",9.37
+"Switzerland",2015,"80+",10.95
+"Syrian Arab Republic",2015,"80+",2.1
+"Taiwan Province of China",2015,"80+",5.64
+"Tajikistan",2015,"80+",6.95
+"Thailand",2015,"80+",5.74
+"The former Yugoslav Republic of Macedonia",2015,"80+",3.14
+"Timor-Leste",2015,"80+",0.51
+"Togo",2015,"80+",0.76
+"Tonga",2015,"80+",7.65
+"Trinidad and Tobago",2015,"80+",6.92
+"Tunisia",2015,"80+",0.91
+"Turkey",2015,"80+",3.09
+"Turkmenistan",2015,"80+",8.17
+"Uganda",2015,"80+",2.13
+"Ukraine",2015,"80+",7.36
+"United Arab Emirates",2015,"80+",3.73
+"United Kingdom of Great Britain and Northern Ireland",2015,"80+",11.11
+"United Republic of Tanzania",2015,"80+",1.77
+"United States of America",2015,"80+",11.46
+"United States Virgin Islands",2015,"80+",4.98
+"Uruguay",2015,"80+",6.16
+"Uzbekistan",2015,"80+",6.37
+"Vanuatu",2015,"80+",2.88
+"Venezuela (Bolivarian Republic of)",2015,"80+",4.97
+"Viet Nam",2015,"80+",3
+"Western Sahara",2015,"80+",0.85
+"World",2015,"80+",6.21
+"Yemen",2015,"80+",0
+"Zambia",2015,"80+",2.89
+"Zimbabwe",2015,"80+",3.38
+"Afghanistan",2015,"20--64",3.17
+"Albania",2015,"20--64",10.57
+"Algeria",2015,"20--64",9.7
+"Angola",2015,"20--64",2.91
+"Antigua and Barbuda",2015,"20--64",10.8
+"Argentina",2015,"20--64",10.31
+"Armenia",2015,"20--64",11.03
+"Aruba",2015,"20--64",9.46
+"Australia",2015,"20--64",13.68
+"Austria",2015,"20--64",12.16
+"Azerbaijan",2015,"20--64",11
+"Bahamas",2015,"20--64",12.94
+"Bahrain",2015,"20--64",9.39
+"Bangladesh",2015,"20--64",5.66
+"Barbados",2015,"20--64",10.24
+"Belarus",2015,"20--64",11.56
+"Belgium",2015,"20--64",11.95
+"Belize",2015,"20--64",8.73
+"Benin",2015,"20--64",4.3
+"Bhutan",2015,"20--64",5.12
+"Bolivia (Plurinational State of)",2015,"20--64",9.53
+"Bosnia and Herzegovina",2015,"20--64",11.24
+"Botswana",2015,"20--64",9.74
+"Brazil",2015,"20--64",7.49
+"Brunei Darussalam",2015,"20--64",9.77
+"Bulgaria",2015,"20--64",11.7
+"Burkina Faso",2015,"20--64",2.58
+"Burundi",2015,"20--64",3.95
+"Cambodia",2015,"20--64",5.28
+"Cameroon",2015,"20--64",7.49
+"Canada",2015,"20--64",13.29
+"Cape Verde",2015,"20--64",6.61
+"Central African Republic",2015,"20--64",5.85
+"Chad",2015,"20--64",2.93
+"Channel Islands",2015,"20--64",12.06
+"Chile",2015,"20--64",11.32
+"China",2015,"20--64",8.64
+"Colombia",2015,"20--64",8.51
+"Comoros",2015,"20--64",7.18
+"Congo",2015,"20--64",8.43
+"Costa Rica",2015,"20--64",9.14
+"Cote d'Ivoire",2015,"20--64",4.64
+"Croatia",2015,"20--64",12.03
+"Cuba",2015,"20--64",11.25
+"Curaçao",2015,"20--64",10.55
+"Cyprus",2015,"20--64",13.01
+"Czech Republic",2015,"20--64",13.02
+"Democratic People's Republic of Korea",2015,"20--64",11.01
+"Democratic Republic of the Congo",2015,"20--64",6.74
+"Denmark",2015,"20--64",12.6
+"Djibouti",2015,"20--64",4.08
+"Dominican Republic",2015,"20--64",8.79
+"Ecuador",2015,"20--64",9.4
+"Egypt",2015,"20--64",8.64
+"El Salvador",2015,"20--64",8.04
+"Equatorial Guinea",2015,"20--64",7.44
+"Eritrea",2015,"20--64",3.78
+"Estonia",2015,"20--64",13.27
+"Ethiopia",2015,"20--64",3.18
+"Fiji",2015,"20--64",11.52
+"Finland",2015,"20--64",13.03
+"France",2015,"20--64",12.14
+"French Guiana",2015,"20--64",8.54
+"French Polynesia",2015,"20--64",10.91
+"Gabon",2015,"20--64",8.76
+"Gambia",2015,"20--64",4.38
+"Georgia",2015,"20--64",12.65
+"Germany",2015,"20--64",13.73
+"Ghana",2015,"20--64",7.58
+"Greece",2015,"20--64",11.78
+"Grenada",2015,"20--64",10.62
+"Guadeloupe",2015,"20--64",10.14
+"Guam",2015,"20--64",10.28
+"Guatemala",2015,"20--64",6.2
+"Guinea",2015,"20--64",4.23
+"Guinea-Bissau",2015,"20--64",4.07
+"Guyana",2015,"20--64",10.06
+"Haiti",2015,"20--64",5.71
+"Honduras",2015,"20--64",5.91
+"Hong Kong Special Administrative Region of China",2015,"20--64",12.54
+"Hungary",2015,"20--64",12.41
+"Iceland",2015,"20--64",13.57
+"India",2015,"20--64",6.94
+"Indonesia",2015,"20--64",9.06
+"Iran (Islamic Republic of)",2015,"20--64",9.19
+"Iraq",2015,"20--64",7.82
+"Ireland",2015,"20--64",12.63
+"Israel",2015,"20--64",11.86
+"Italy",2015,"20--64",11.94
+"Jamaica",2015,"20--64",10.39
+"Japan",2015,"20--64",13.81
+"Jordan",2015,"20--64",9.97
+"Kazakhstan",2015,"20--64",11.31
+"Kenya",2015,"20--64",8.28
+"Kiribati",2015,"20--64",9.43
+"Kuwait",2015,"20--64",8.05
+"Kyrgyzstan",2015,"20--64",10.86
+"Lao People's Democratic Republic",2015,"20--64",6.48
+"Latvia",2015,"20--64",12.59
+"Lebanon",2015,"20--64",10.39
+"Lesotho",2015,"20--64",7.61
+"Liberia",2015,"20--64",4.87
+"Libyan Arab Jamahiriya",2015,"20--64",8.17
+"Lithuania",2015,"20--64",13.48
+"Luxembourg",2015,"20--64",13.17
+"Macao Special Administrative Region of China",2015,"20--64",11.34
+"Madagascar",2015,"20--64",4.48
+"Malawi",2015,"20--64",6.16
+"Malaysia",2015,"20--64",11.61
+"Maldives",2015,"20--64",7.4
+"Mali",2015,"20--64",2.25
+"Malta",2015,"20--64",11.17
+"Martinique",2015,"20--64",10.97
+"Mauritania",2015,"20--64",4.22
+"Mauritius",2015,"20--64",9.34
+"Mayotte",2015,"20--64",10.14
+"Mexico",2015,"20--64",9.32
+"Micronesia (Federated States of)",2015,"20--64",9.72
+"Mongolia",2015,"20--64",10.48
+"Montenegro",2015,"20--64",11.97
+"Morocco",2015,"20--64",5.66
+"Mozambique",2015,"20--64",2.93
+"Myanmar",2015,"20--64",6.36
+"Namibia",2015,"20--64",8.43
+"Nepal",2015,"20--64",5.62
+"Netherlands",2015,"20--64",12.42
+"New Caledonia",2015,"20--64",11.5
+"New Zealand",2015,"20--64",13.52
+"Nicaragua",2015,"20--64",6.78
+"Niger",2015,"20--64",1.95
+"Nigeria",2015,"20--64",6.75
+"Norway",2015,"20--64",13.1
+"Occupied Palestinian Territory",2015,"20--64",10.74
+"Oman",2015,"20--64",9.21
+"Pakistan",2015,"20--64",5.08
+"Panama",2015,"20--64",10.2
+"Papua New Guinea",2015,"20--64",6.94
+"Paraguay",2015,"20--64",8.79
+"Peru",2015,"20--64",10.22
+"Philippines",2015,"20--64",9.42
+"Poland",2015,"20--64",13.04
+"Portugal",2015,"20--64",9.35
+"Puerto Rico",2015,"20--64",12.44
+"Qatar",2015,"20--64",9.32
+"Republic of Korea",2015,"20--64",12.9
+"Republic of Moldova",2015,"20--64",11.06
+"Reunion",2015,"20--64",9.91
+"Romania",2015,"20--64",11.65
+"Russian Federation",2015,"20--64",10.87
+"Rwanda",2015,"20--64",4.56
+"Saint Lucia",2015,"20--64",10.58
+"Saint Vincent and the Grenadines",2015,"20--64",10.82
+"Samoa",2015,"20--64",10.74
+"Sao Tome and Principe",2015,"20--64",4.68
+"Saudi Arabia",2015,"20--64",10.2
+"Senegal",2015,"20--64",4.26
+"Serbia",2015,"20--64",12.06
+"Seychelles",2015,"20--64",10.65
+"Sierra Leone",2015,"20--64",4.3
+"Singapore",2015,"20--64",12.64
+"Slovakia",2015,"20--64",13.25
+"Slovenia",2015,"20--64",12.2
+"Solomon Islands",2015,"20--64",6.69
+"Somalia",2015,"20--64",3.31
+"South Africa",2015,"20--64",10.07
+"South Sudan",2015,"20--64",2.63
+"Spain",2015,"20--64",11.47
+"Sri Lanka",2015,"20--64",10.77
+"Sudan",2015,"20--64",4.98
+"Suriname",2015,"20--64",10.19
+"Swaziland",2015,"20--64",9.5
+"Sweden",2015,"20--64",12.77
+"Switzerland",2015,"20--64",13.4
+"Syrian Arab Republic",2015,"20--64",7.29
+"Taiwan Province of China",2015,"20--64",12.39
+"Tajikistan",2015,"20--64",11.79
+"Thailand",2015,"20--64",10.22
+"The former Yugoslav Republic of Macedonia",2015,"20--64",10.64
+"Timor-Leste",2015,"20--64",6.72
+"Togo",2015,"20--64",5.25
+"Tonga",2015,"20--64",11.03
+"Trinidad and Tobago",2015,"20--64",11.63
+"Tunisia",2015,"20--64",8.99
+"Turkey",2015,"20--64",9.21
+"Turkmenistan",2015,"20--64",10.73
+"Uganda",2015,"20--64",6.68
+"Ukraine",2015,"20--64",10.98
+"United Arab Emirates",2015,"20--64",10.24
+"United Kingdom of Great Britain and Northern Ireland",2015,"20--64",13.26
+"United Republic of Tanzania",2015,"20--64",7.22
+"United States of America",2015,"20--64",12.89
+"United States Virgin Islands",2015,"20--64",9.99
+"Uruguay",2015,"20--64",9.55
+"Uzbekistan",2015,"20--64",11.23
+"Vanuatu",2015,"20--64",7.2
+"Venezuela (Bolivarian Republic of)",2015,"20--64",10.11
+"Viet Nam",2015,"20--64",8.08
+"Western Sahara",2015,"20--64",3.58
+"World",2015,"20--64",8.74
+"Yemen",2015,"20--64",2.38
+"Zambia",2015,"20--64",7.94
+"Zimbabwe",2015,"20--64",10.96
