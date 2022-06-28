@@ -20,12 +20,19 @@ library(dplyr)
 #Duplicate for messing around
 pwt101<-pwt100
 
-#Selecting the (hopefully?) relevant columns
+#Selecting the (hopefully?) relevant columns 
+# NEEDS A REEDO
+
 pwt101<-pwt101[,c("country", "year", "cgdpe", "cgdpo", "cn", "ck", "ctfp")]
 View(pwt101)
 
-#renaming column from Wittgensteincenter
+#renaming columns from Wittgensteincenter
 wcde_data<-dplyr::rename(wcde_data, country=Area)
+wcde_data<-dplyr::rename(wcde_data, year=Year)
+
+
+#Select relevant columns
+wcde_data<-wcde_data[,c(1,2,4)]
 
 #As the data from the Wittgensteincenter is in 5 year intervals, adjust PWT
 years<-c(1950, 1955, 1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995, 
@@ -54,5 +61,20 @@ pwt101<-pwt101[pwt101$country%in%countries_pwt,]
 View(pwt101)
 wcde_data<-wcde_data[wcde_data$country%in%countries_wcde,]
 View(wcde_data)
+
+#Merging the data based on the years and the names of the country
+
+total<-merge(pwt101, wcde_data, by=c("country", "year"))
+View(total)
+
+library(arsenal)
+summary(comparedf(total, pwt101))
+
+#Cleaning the data; exclude countries where the data are incomplete
+
+#Relevant variable transformations
+
+
+
 
 
