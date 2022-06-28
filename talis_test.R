@@ -9,8 +9,6 @@ pwt_all <- read_csv("pwt_all.csv", col_types = cols(country_ISO = col_number(),
                                                     dY = col_number(), dK = col_number(), 
                                                     dL = col_number(), dH = col_number(), 
                                                     Y0 = col_number(), missing_data_85 = col_character()))
-View(pwt_all)
-
 
 #filter for 1985 and remove missing values
 data <- pwt_all %>%
