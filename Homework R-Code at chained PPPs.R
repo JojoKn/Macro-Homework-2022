@@ -43,7 +43,7 @@ wcde_data2<-wcde_data2[,c("Area", "Year", "Years", "ISOCode3")]
 
 #Selecting the (hopefully?) relevant columns 
 
-pwt101<-pwt100[,c("countrycode", "country", "year", "cgdpe", "cgdpo", "cn", "emp", "pop")]
+pwt101<-pwt100[,c("countrycode", "country", "year", "rgdpe", "rgdpo", "cn", "emp", "pop")]
 View(pwt101)
 
 #renaming columns from Wittgensteincenter
@@ -103,41 +103,23 @@ data65<-subset(total_a_clean, year==1965)
 data85<-subset(total_a_clean, year==1985)
 
 #Get per capita income
-data65$cgdpo<-data65$cgdpo/data65$pop
-data85$cgdpo<-data85$cgdpo/data85$pop
+data65$rgdpo<-data65$rgdpo/data65$pop
+data85$rgdpo<-data85$rgdpo/data85$pop
 
 
-dya<-log(data85$cgdpo/data65$cgdpo)
+dya<-log(data85$rgdpo/data65$rgdpo)
 dKa<-log(data85$cn/data65$cn)
 dLa<-log(data85$emp/data65$emp)
 dHa<-log(data85$Years/data65$Years)
-logY0a<-log(data65$cgdpo)
-
-#The author uses heteroskedasticity robust standard errord, which is not implemented
-#in base R; you need a package called sandwich for it:
-#https://thomasleeper.com/Rcourse/Tutorials/olsrobustSEs.html
-
-library(sandwich)
+logY0a<-log(data65$rgdpo)
 
 model1a<-summary(lm(dya~dKa+dLa+dHa))
-#Adjust the standard errors for the heteroskedasticity robust ones
-model1a$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dya~dKa+dLa+dHa))))
-model1a
 
 model2a<-summary(lm(dya~dKa+dLa+dHa+logY0a))
-#Adjust the standard errors for the heteroskedasticity robust ones
-model2a$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dya~dKa+dLa+dHa+logY0a))))
-model2a
 
 model3a<-summary(lm(dya~dKa+dLa+dHa+logY0a+data65$oil))
-#Adjust the standard errors for the heteroskedasticity robust ones
-model3a$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dya~dKa+dLa+dHa+logY0a+data65$oil))))
-model3a
 
 model4a<-summary(lm(dya~dKa+dLa+dHa+logY0a+data65$africa+data65$laamer))
-#Adjust the standard errors for the heteroskedasticity robust ones
-model4a$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dya~dKa+dLa+dHa+logY0a+data65$africa+data65$laamer))))
-model4a
 
 ####b####
 
@@ -160,33 +142,22 @@ data90<-subset(total_b_clean, year==1990)
 data15<-subset(total_b_clean, year==2015)
 
 #Get per capita income
-data90$cgdpo<-data90$cgdpo/data90$pop
-data15$cgdpo<-data15$cgdpo/data15$pop
+data90$rgdpo<-data90$rgdpo/data90$pop
+data15$rgdpo<-data15$rgdpo/data15$pop
 
 
-dyb<-log(data15$cgdpo/data90$cgdpo)
+dyb<-log(data15$rgdpo/data90$rgdpo)
 dKb<-log(data15$cn/data90$cn)
 dLb<-log(data15$emp/data90$emp)
 dHb<-log(data15$Years/data90$Years)
-logY0b<-log(data90$cgdpo)
+logY0b<-log(data90$rgdpo)
 
 model1b<-summary(lm(dyb~dKb+dLb+dHb))
-#Adjust the standard errors for the heteroskedasticity robust ones
-model1b$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyb~dKb+dLb+dHb))))
-model1b
 
 model2b<-summary(lm(dyb~dKb+dLb+dHb+logY0b))
-#Adjust the standard errors for the heteroskedasticity robust ones
-model2b$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyb~dKb+dLb+dHb+logY0b))))
-model2b
 
 model3b<-summary(lm(dyb~dKb+dLb+dHb+logY0b+data90$oil))
-#Adjust the standard errors for the heteroskedasticity robust ones
-model3b$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyb~dKb+dLb+dHb+logY0b+data90$oil))))
-model3b
 
 model4b<-summary(lm(dyb~dKb+dLb+dHb+logY0b+data90$africa+data90$laamer))
-#Adjust the standard errors for the heteroskedasticity robust ones
-model4b$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyb~dKb+dLb+dHb+logY0b+data90$africa+data90$laamer))))
-model4b
+
 
