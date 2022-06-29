@@ -104,19 +104,57 @@ data65$cgdpo<-data65$cgdpo/data65$pop
 data85$cgdpo<-data85$cgdpo/data85$pop
 
 
-dy<-log(data85$cgdpo/data65$cgdpo)
-dK<-log(data85$cn/data65$cn)
-dL<-log(data85$emp/data65$emp)
-dH<-log(data85$Years/data65$Years)
-logY0<-log(data65$cgdpo)
+dya<-log(data85$cgdpo/data65$cgdpo)
+dKa<-log(data85$cn/data65$cn)
+dLa<-log(data85$emp/data65$emp)
+dHa<-log(data85$Years/data65$Years)
+logY0a<-log(data65$cgdpo)
 
-model1<-summary(lm(dY~dK+dL+dH))
+model1a<-summary(lm(dya~dKa+dLa+dHa))
 
-model2<-summary(lm(dY~dK+dL+dH+logY0))
+model2a<-summary(lm(dya~dKa+dLa+dHa+logY0a))
 
-model3<-summary(lm(dY~dK+dL+dH+logY0+data65$oil))
+model3a<-summary(lm(dya~dKa+dLa+dHa+logY0a+data65$oil))
 
-model4<-summary(lm(dY~dK+dL+dH+logY0+data65$africa+data65$laamer))
+model4a<-summary(lm(dya~dKa+dLa+dHa+logY0a+data65$africa+data65$laamer))
 
+####b####
+
+years_b<-c(1990, 2015)
+total_b<-total[total$year%in%years_b,]
+
+#Omit NAs
+total_b_clean<-na.omit(total_b)
+
+#Keep duplicated rows only
+total_b_clean<-total_b_clean[ ave(1:nrow(total_b_clean), 
+                                  total_b_clean$ISOCode3, FUN=length) > 1 , ]
+
+#Check: Length should be half of the number of rows from the data frame
+length(unique(total_b_clean$ISOCode3))
+
+#Calculating log differences
+
+data90<-subset(total_b_clean, year==1990)
+data15<-subset(total_b_clean, year==2015)
+
+#Get per capita income
+data90$cgdpo<-data90$cgdpo/data90$pop
+data15$cgdpo<-data15$cgdpo/data15$pop
+
+
+dyb<-log(data15$cgdpo/data90$cgdpo)
+dKb<-log(data15$cn/data90$cn)
+dLb<-log(data15$emp/data90$emp)
+dHb<-log(data15$Years/data90$Years)
+logY0b<-log(data90$cgdpo)
+
+model1b<-summary(lm(dyb~dKb+dLb+dHb))
+
+model2b<-summary(lm(dyb~dKb+dLb+dHb+logY0b))
+
+model3b<-summary(lm(dyb~dKb+dLb+dHb+logY0b+data90$oil))
+
+model4b<-summary(lm(dyb~dKb+dLb+dHb+logY0b+data90$africa+data90$laamer))
 
 
