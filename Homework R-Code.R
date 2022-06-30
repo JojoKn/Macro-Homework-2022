@@ -275,6 +275,11 @@ stargazer(model1c1, model2c1, model3c1, model4c1,
           column.sep.width="10pt",
           df=FALSE)
 
+summary(data85$pop)
+summary(data85$emp)
+summary(data65$pop)
+summary(data65$emp)
+
 #####Alternate Measures for Human Capital######
 #The Wittgenstein Center provides data on human capital; the idea is to use the measure
 #already included in the Penn World Tables
