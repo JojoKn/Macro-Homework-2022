@@ -43,8 +43,7 @@ wcde_data2<-wcde_data2[,c("Area", "Year", "Years", "ISOCode3")]
 
 #Selecting the (hopefully?) relevant columns 
 
-pwt101<-pwt100[,c("countrycode", "country", "year", "cgdpe", "cgdpo", "cn", "emp", "pop", "hc", "ctfp")]
-View(pwt101)
+pwt101<-pwt100[,c("countrycode", "country", "year", "cgdpe", "cgdpo", "cn", "emp", "pop")]
 
 #renaming columns from Wittgensteincenter
 wcde_data2<-dplyr::rename(wcde_data2, country=Area)
@@ -83,7 +82,6 @@ write.csv(total, file="total_uncleaned.csv")
 #Filter out relevant years for task a
 years_a<-c(1965, 1985)
 total_a<-total[total$year%in%years_a,]
-View(total_a)
 
 #Omit NAs
 total_a_clean<-na.omit(total_a)
@@ -233,9 +231,6 @@ stargazer(model1b, model2b, model3b, model4b,
 #As in the paper, the idea is to not use the employment data but rather the pure population
 #to appoximate the labor force
 
-View(data65)
-View(data85)
-
 dyc1<-log(data85$cgdpo/data65$cgdpo)
 dKc1<-log(data85$cn/data65$cn)
 dLc1<-log(data85$pop/data65$pop)
@@ -266,8 +261,6 @@ smodel4c1<-summary(lm(dyc1~dKc1+dLc1+dHc1+logY0c1+data65$africa+data65$laamer))
 smodel4c1$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc1~dKc1+dLc1+dHc1+logY0c1+data65$africa+data65$laamer))))
 smodel4c1
 
-library(stargazer)
-
 stargazer(model1c1, model2c1, model3c1, model4c1,
           title="Cross-country growth accounting results. Standard Specification - dependent variable: DY. 
           Robustness Check No. 1: Population instead of Employment as measure of labor force",
@@ -286,14 +279,47 @@ stargazer(model1c1, model2c1, model3c1, model4c1,
 #The Wittgenstein Center provides data on human capital; the idea is to use the measure
 #already included in the Penn World Tables
 
-View(data65)
-View(data85)
+#Due to the missing values being different for the respective variables, a new dataset 
+#created in order to avoid throwing out relevant observations due to missing values
 
-dyc2<-log(data85$cgdpo/data65$cgdpo)
-dKc2<-log(data85$cn/data65$cn)
-dLc2<-log(data85$emp/data65$emp)
-dHc2<-log(data85$hc/data65$hc)
-logY0c2<-log(data65$cgdpo)
+pwt102<-pwt100[,c("countrycode", "country", "year", "cgdpe", "cgdpo", "cn", "emp", "pop", "hc")]
+
+pwt102<-pwt102[pwt102$year%in%years_wcde,]
+
+#Merging the datasets
+pwt102<-dplyr::rename(pwt102, ISOCode3=countrycode)
+total2<-merge(wcde_data2, pwt102, by=c("ISOCode3", "year"))
+
+#Adding dummies for the regions
+total2$oil<-ifelse(total2$ISOCode3%in%oilexporters, "1", "0")
+total2$africa<-ifelse(total2$ISOCode3%in%africancountries, "1", "0")
+total2$laamer<-ifelse(total2$ISOCode3%in%laamericancountries, "1", "0")
+
+total2_a<-total2[total2$year%in%years_a,]
+
+#Omit NAs
+total2_a_clean<-na.omit(total2_a)
+
+#Keep duplicated rows only
+total2_a_clean<-total2_a_clean[ ave(1:nrow(total2_a_clean), 
+                                    total2_a_clean$ISOCode3, FUN=length) > 1 , ]
+
+#Check: Length should be half of the number of rows from the data frame
+length(unique(total2_a_clean$ISOCode3))
+
+#Select subset of relevant years
+data65_2<-subset(total2_a_clean, year==1965)
+data85_2<-subset(total2_a_clean, year==1985)
+
+#Get per capita income
+data65_2$cgdpo<-data65_2$cgdpo/data65_2$pop
+data85_2$cgdpo<-data85_2$cgdpo/data85_2$pop
+
+dyc2<-log(data85_2$cgdpo/data65_2$cgdpo)
+dKc2<-log(data85_2$cn/data65_2$cn)
+dLc2<-log(data85_2$emp/data65_2$emp)
+dHc2<-log(data85_2$hc/data65_2$hc)
+logY0c2<-log(data65_2$cgdpo)
 
 model1c2<-lm(dyc2~dKc2+dLc2+dHc2)
 smodel1c2<-summary(lm(dyc2~dKc2+dLc2+dHc2))
@@ -307,16 +333,16 @@ smodel2c2<-summary(lm(dyc2~dKc2+dLc2+dHc2+logY0c2))
 smodel2c2$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc2~dKc2+dLc2+dHc2+logY0c2))))
 smodel2c2
 
-model3c2<-lm(dyc2~dKc2+dLc2+dHc2+logY0c2+data65$oil)
-smodel3c2<-summary(lm(dyc2~dKc2+dLc2+dHc2+logY0c2+data65$oil))
+model3c2<-lm(dyc2~dKc2+dLc2+dHc2+logY0c2+data65_2$oil)
+smodel3c2<-summary(lm(dyc2~dKc2+dLc2+dHc2+logY0c2+data65_2$oil))
 #Adjust the standard errors for the heteroskedasticity robust ones
-smodel3c2$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc2~dKc2+dLc2+dHc2+logY0c2+data65$oil))))
+smodel3c2$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc2~dKc2+dLc2+dHc2+logY0c2+data65_2$oil))))
 smodel3c2
 
-model4c2<-lm(dyc2~dKc2+dLc2+dHc2+logY0c2+data65$africa+data65$laamer)
-smodel4c2<-summary(lm(dyc2~dKc2+dLc2+dHc2+logY0c2+data65$africa+data65$laamer))
+model4c2<-lm(dyc2~dKc2+dLc2+dHc2+logY0c2+data65_2$africa+data65_2$laamer)
+smodel4c2<-summary(lm(dyc2~dKc2+dLc2+dHc2+logY0c2+data65_2$africa+data65_2$laamer))
 #Adjust the standard errors for the heteroskedasticity robust ones
-smodel4c2$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc2~dKc2+dLc2+dHc2+logY0c2+data65$africa+data65$laamer))))
+smodel4c2$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc2~dKc2+dLc2+dHc2+logY0c2+data65_2$africa+data65_2$laamer))))
 smodel4c2
 
 library(stargazer)
@@ -346,9 +372,6 @@ data85afr<-subset(total_a_clean, year==1985 & africa==1)
 #Calculate per capita income
 data65afr$cgdpo<-data65afr$cgdpo/data65afr$pop
 data85afr$cgdpo<-data85afr$cgdpo/data85afr$pop
-
-View(data65afr)
-View(data85afr)
 
 #Calculate log changes
 dyc3<-log(data85afr$cgdpo/data65afr$cgdpo)
@@ -398,9 +421,6 @@ data85laam<-subset(total_a_clean, year==1985 & laamer==1)
 data65laam$cgdpo<-data65laam$cgdpo/data65laam$pop
 data85laam$cgdpo<-data85laam$cgdpo/data85laam$pop
 
-View(data65laam)
-View(data85laam)
-
 #Calculate log changes
 dyc4<-log(data85laam$cgdpo/data65laam$cgdpo)
 dKc4<-log(data85laam$cn/data65laam$cn)
@@ -441,4 +461,91 @@ stargazer(model1c4, model2c4 ,
 #Growth Accountig is used to proxy total factor productivity as we usually do not have
 #data on it. However, the Penn World tables allow us to actually include TFP as 
 #an additional variable in the regession analysis instead of a constant. 
+
+#Due to the missing values being different for the respective variables, a new dataset 
+#created in order to avoid throwing out relevant observations due to missing values
+
+pwt103<-pwt100[,c("countrycode", "country", "year", "cgdpe", "cgdpo", "cn", "emp", "pop", "ctfp")]
+
+pwt103<-pwt103[pwt103$year%in%years_wcde,]
+
+#Merging the datasets
+pwt103<-dplyr::rename(pwt103, ISOCode3=countrycode)
+total3<-merge(wcde_data2, pwt103, by=c("ISOCode3", "year"))
+
+#Adding dummies for the regions
+total3$oil<-ifelse(total3$ISOCode3%in%oilexporters, "1", "0")
+total3$africa<-ifelse(total3$ISOCode3%in%africancountries, "1", "0")
+total3$laamer<-ifelse(total3$ISOCode3%in%laamericancountries, "1", "0")
+
+total3_a<-total3[total3$year%in%years_a,]
+
+#Omit NAs
+total3_a_clean<-na.omit(total3_a)
+
+#Keep duplicated rows only
+total3_a_clean<-total3_a_clean[ ave(1:nrow(total3_a_clean), 
+                                  total3_a_clean$ISOCode3, FUN=length) > 1 , ]
+
+#Check: Length should be half of the number of rows from the data frame
+length(unique(total3_a_clean$ISOCode3))
+
+#Select subset of relevant years
+data65_3<-subset(total3_a_clean, year==1965)
+data85_3<-subset(total3_a_clean, year==1985)
+
+#Get per capita income
+data65_3$cgdpo<-data65_3$cgdpo/data65_3$pop
+data85_3$cgdpo<-data85_3$cgdpo/data85_3$pop
+
+
+#Calculating log differences
+dAc5<-log(data85_3$ctfp/data65_3$ctfp)
+dyc5<-log(data85_3$cgdpo/data65_3$cgdpo)
+dKc5<-log(data85_3$cn/data65_3$cn)
+dLc5<-log(data85_3$emp/data65_3$emp)
+dHc5<-log(data85_3$Years/data65_3$Years)
+logY0c5<-log(data65_3$cgdpo)
+
+#Rerunning the model, but without intercept
+model1c5<-lm(dyc5~0+dAc5+dKc5+dLc5+dHc5)
+smodel1c5<-summary(lm(dyc5~0+dAc5+dKc5+dLc5+dHc5))
+#Adjust the standard errors for the heteroskedasticity robust ones
+smodel1c5$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc5~0+dAc5+dKc5+dLc5+dHc5))))
+smodel1c5
+
+model2c5<-lm(dyc5~0+dAc5+dKc5+dLc5+dHc5+logY0c5)
+smodel2c5<-summary(lm(0+dAc5+dyc5~dKc5+dLc5+dHc5+logY0c5))
+#Adjust the standard errors for the heteroskedasticity robust ones
+smodel2c5$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc5~0+dAc5+dKc5+dLc5+dHc5+logY0c5))))
+smodel2c5
+
+model3c5<-lm(dyc5~0+dAc5+dKc5+dLc5+dHc5+logY0c5+data65_3$oil)
+smodel3c5<-summary(lm(dyc5~0+dAc5+dKc5+dLc5+dHc5+logY0c5+data65_3$oil))
+#Adjust the standard errors for the heteroskedasticity robust ones
+smodel3c5$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc5~0+dAc5+dKc5+dLc5+dHc5+logY0c5+data65_3$oil))))
+smodel3c5
+
+model4c5<-lm(dyc5~0+dAc5+dKc5+dLc5+dHc5+logY0c5+data65_3$africa+data65_3$laamer)
+smodel4c5<-summary(lm(dyc5~0+dAc5+dKc5+dLc5+dHc5+logY0c5+data65_3$africa+data65_3$laamer))
+#Adjust the standard errors for the heteroskedasticity robust ones
+smodel4c5$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc5~0+dAc5+dKc5+dLc5+dHc5+logY0c5+data65_3$africa+data65_3$laamer))))
+smodel4c5
+
+library(stargazer)
+
+stargazer(model1c5, model2c5, model3c5, model4c5,
+          title="Cross-country growth accounting results. Standard Specification - dependent variable: DY. 
+          Robustness Check No. 5: Include TFP in regression, but supress intercept",
+          dep.var.caption="1965-1985",
+          dep.var.labels="",
+          covariate.labels=c("DTFP","DK","DL","DH","Log Y0","OIL","AFRICA","LAAMER"),
+          column.labels=c("Model 1", "Model 2", "Model 3", "Model 4"),
+          type="latex",
+          omit.stat = c("rsq","adj.rsq","ser"),
+          model.numbers=FALSE,
+          intercept.bottom=FALSE,
+          column.sep.width="10pt",
+          df=FALSE)
+
 
