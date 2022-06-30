@@ -520,7 +520,7 @@ smodel1c5$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc5~0+dAc5+dKc5+dLc5+dHc5)))
 smodel1c5
 
 model2c5<-lm(dyc5~0+dAc5+dKc5+dLc5+dHc5+logY0c5)
-smodel2c5<-summary(lm(0+dAc5+dyc5~dKc5+dLc5+dHc5+logY0c5))
+smodel2c5<-summary(lm(dyc5~0+dAc5+dKc5+dLc5+dHc5+logY0c5))
 #Adjust the standard errors for the heteroskedasticity robust ones
 smodel2c5$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc5~0+dAc5+dKc5+dLc5+dHc5+logY0c5))))
 smodel2c5
@@ -544,7 +544,7 @@ stargazer(model1c5, model2c5, model3c5, model4c5,
           Robustness Check No. 5: Include TFP in regression, but supress intercept",
           dep.var.caption="1965-1985",
           dep.var.labels="",
-          covariate.labels=c("DTFP","DK","DL","DH","Log Y0","OIL","AFRICA","LAAMER"),
+          covariate.labels=c("DTFP","DK","DL","DH","Log Y0","OIL = 0","OIL = 1","AFRICA = 0","AFRICA = 1","LAAMER = 1"),
           column.labels=c("Model 1", "Model 2", "Model 3", "Model 4"),
           type="latex",
           omit.stat = c("rsq","adj.rsq","ser"),
@@ -552,5 +552,3 @@ stargazer(model1c5, model2c5, model3c5, model4c5,
           intercept.bottom=FALSE,
           column.sep.width="10pt",
           df=FALSE)
-
-
