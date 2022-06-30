@@ -1,4 +1,4 @@
-####Homework 2022####
+###Homework 2022###
 
 ####Transformations####
 #Importing the Datasets
@@ -77,6 +77,7 @@ total$africa<-ifelse(total$ISOCode3%in%africancountries, "1", "0")
 total$laamer<-ifelse(total$ISOCode3%in%laamericancountries, "1", "0")
 
 write.csv(total, file="total_uncleaned.csv")
+
 ####a####
 
 #Filter out relevant years for task a
@@ -119,26 +120,44 @@ logY0a<-log(data65$cgdpo)
 
 library(sandwich)
 
-model1a<-summary(lm(dya~dKa+dLa+dHa))
+model1a<-lm(dya~dKa+dLa+dHa)
+smodel1a<-summary(lm(dya~dKa+dLa+dHa))
 #Adjust the standard errors for the heteroskedasticity robust ones
-model1a$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dya~dKa+dLa+dHa))))
-model1a
+smodel1a$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dya~dKa+dLa+dHa))))
+smodel1a
 
-model2a<-summary(lm(dya~dKa+dLa+dHa+logY0a))
+model2a<-lm(dya~dKa+dLa+dHa+logY0a)
+smodel2a<-summary(lm(dya~dKa+dLa+dHa+logY0a))
 #Adjust the standard errors for the heteroskedasticity robust ones
-model2a$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dya~dKa+dLa+dHa+logY0a))))
-model2a
+smodel2a$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dya~dKa+dLa+dHa+logY0a))))
+smodel2a
 
-model3a<-summary(lm(dya~dKa+dLa+dHa+logY0a+data65$oil))
+model3a<-lm(dya~dKa+dLa+dHa+logY0a+data65$oil)
+smodel3a<-summary(lm(dya~dKa+dLa+dHa+logY0a+data65$oil))
 #Adjust the standard errors for the heteroskedasticity robust ones
-model3a$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dya~dKa+dLa+dHa+logY0a+data65$oil))))
-model3a
+smodel3a$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dya~dKa+dLa+dHa+logY0a+data65$oil))))
+smodel3a
 
-model4a<-summary(lm(dya~dKa+dLa+dHa+logY0a+data65$africa+data65$laamer))
+model4a<-lm(dya~dKa+dLa+dHa+logY0a+data65$africa+data65$laamer)
+smodel4a<-summary(lm(dya~dKa+dLa+dHa+logY0a+data65$africa+data65$laamer))
 #Adjust the standard errors for the heteroskedasticity robust ones
-model4a$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dya~dKa+dLa+dHa+logY0a+data65$africa+data65$laamer))))
-model4a
+smodel4a$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dya~dKa+dLa+dHa+logY0a+data65$africa+data65$laamer))))
+smodel4a
 
+library(stargazer)
+
+stargazer(model1a, model2a, model3a, model4a,
+          title="Cross-country growth accounting results. Standard Specification - dependent variable: DY.",
+          dep.var.caption="1965-1985",
+          dep.var.labels="",
+          covariate.labels=c("Const.","DK","DL","DH","Log Y0","OIL","AFRICA","LAAMER"),
+          column.labels=c("Model 1", "Model 2", "Model 3", "Model 4"),
+          type="latex",
+          omit.stat = c("rsq","adj.rsq","ser"),
+          model.numbers=FALSE,
+          intercept.bottom=FALSE,
+          column.sep.width="10pt",
+          df=FALSE)
 ####b####
 
 years_b<-c(1990, 2015)
@@ -170,23 +189,65 @@ dLb<-log(data15$emp/data90$emp)
 dHb<-log(data15$Years/data90$Years)
 logY0b<-log(data90$cgdpo)
 
-model1b<-summary(lm(dyb~dKb+dLb+dHb))
+model1b<-lm(dyb~dKb+dLb+dHb)
+smodel1b<-summary(lm(dyb~dKb+dLb+dHb))
 #Adjust the standard errors for the heteroskedasticity robust ones
-model1b$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyb~dKb+dLb+dHb))))
-model1b
+smodel1b$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyb~dKb+dLb+dHb))))
+smodel1b
 
-model2b<-summary(lm(dyb~dKb+dLb+dHb+logY0b))
+model2b<-lm(dyb~dKb+dLb+dHb+logY0b)
+smodel2b<-summary(lm(dyb~dKb+dLb+dHb+logY0b))
 #Adjust the standard errors for the heteroskedasticity robust ones
-model2b$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyb~dKb+dLb+dHb+logY0b))))
-model2b
+smodel2b$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyb~dKb+dLb+dHb+logY0b))))
+smodel2b
 
-model3b<-summary(lm(dyb~dKb+dLb+dHb+logY0b+data90$oil))
+model3b<-lm(dyb~dKb+dLb+dHb+logY0b+data90$oil)
+smodel3b<-summary(lm(dyb~dKb+dLb+dHb+logY0b+data90$oil))
 #Adjust the standard errors for the heteroskedasticity robust ones
-model3b$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyb~dKb+dLb+dHb+logY0b+data90$oil))))
-model3b
+smodel3b$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyb~dKb+dLb+dHb+logY0b+data90$oil))))
+smodel3b
 
-model4b<-summary(lm(dyb~dKb+dLb+dHb+logY0b+data90$africa+data90$laamer))
+model4b<-lm(dyb~dKb+dLb+dHb+logY0b+data90$africa+data90$laamer)
+smodel4b<-summary(lm(dyb~dKb+dLb+dHb+logY0b+data90$africa+data90$laamer))
 #Adjust the standard errors for the heteroskedasticity robust ones
-model4b$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyb~dKb+dLb+dHb+logY0b+data90$africa+data90$laamer))))
-model4b
+smodel4b$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyb~dKb+dLb+dHb+logY0b+data90$africa+data90$laamer))))
+smodel4b
+
+stargazer(model1b, model2b, model3b, model4b,
+          title="Cross-country growth accounting results. Standard Specification - dependent variable: DY.",
+          dep.var.caption="1990-2015",
+          dep.var.labels="",
+          covariate.labels=c("Const.","DK","DL","DH","Log Y0","OIL","AFRICA","LAAMER"),
+          column.labels=c("Model 1", "Model 2", "Model 3", "Model 4"),
+          type="latex",
+          omit.stat = c("rsq","adj.rsq","ser"),
+          model.numbers=FALSE,
+          intercept.bottom=FALSE,
+          column.sep.width="10pt",
+          df=FALSE)
+
+####Robustness Checks####
+#For the sake of the results being comparable to task a and the paper itself, the following
+#time frame is assumed in this part of the code as well: 1965-1985
+
+#####Alternate Measures for Employment#####
+#As in the paper, the idea is to not use the employment data but rather the pure population
+#to appoximate the labor force
+
+#####Alternate Measures for Human Capital######
+#The Wittgenstein Center provides data on human capital; the idea is to use the measure
+#already included in the Penn World Tables
+
+#####Subsample Analysis for Africa#####
+#Instead of just including a dummy, lets run the regression for the subsample of African
+#countries in the sample.
+
+#####Subsample Analysis for Latin America#####
+#Instead of just including a dummy, lets run the regression for the subsample of Latin
+#American countries in the sample.
+
+#####Including TFP instead of a constant#####
+#Growth Accountig is used to proxy total factor productivity as we usually do not have
+#data on it. However, the Penn World tables allow us to actually include TFP as 
+#an additional variable in the regession analysis instead of a constant. 
 
