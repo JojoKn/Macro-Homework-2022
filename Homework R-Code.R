@@ -43,7 +43,7 @@ wcde_data2<-wcde_data2[,c("Area", "Year", "Years", "ISOCode3")]
 
 #Selecting the (hopefully?) relevant columns 
 
-pwt101<-pwt100[,c("countrycode", "country", "year", "cgdpe", "cgdpo", "cn", "emp", "pop")]
+pwt101<-pwt100[,c("countrycode", "country", "year", "cgdpe", "cgdpo", "cn", "emp", "pop", "hc", "ctfp")]
 View(pwt101)
 
 #renaming columns from Wittgensteincenter
@@ -98,8 +98,7 @@ write.csv(total_a_clean, file="total_a_cleaned.csv")
 #Check: Length should be half of the number of rows from the data frame
 length(unique(total_a_clean$ISOCode3))
 
-#Calculating log differences
-
+#Select subset of relevant years
 data65<-subset(total_a_clean, year==1965)
 data85<-subset(total_a_clean, year==1985)
 
@@ -107,7 +106,7 @@ data85<-subset(total_a_clean, year==1985)
 data65$cgdpo<-data65$cgdpo/data65$pop
 data85$cgdpo<-data85$cgdpo/data85$pop
 
-
+#Calculate the log differences
 dya<-log(data85$cgdpo/data65$cgdpo)
 dKa<-log(data85$cn/data65$cn)
 dLa<-log(data85$emp/data65$emp)
@@ -182,7 +181,7 @@ data15<-subset(total_b_clean, year==2015)
 data90$cgdpo<-data90$cgdpo/data90$pop
 data15$cgdpo<-data15$cgdpo/data15$pop
 
-
+#Calculate log differences in variables
 dyb<-log(data15$cgdpo/data90$cgdpo)
 dKb<-log(data15$cn/data90$cn)
 dLb<-log(data15$emp/data90$emp)
@@ -234,17 +233,209 @@ stargazer(model1b, model2b, model3b, model4b,
 #As in the paper, the idea is to not use the employment data but rather the pure population
 #to appoximate the labor force
 
+View(data65)
+View(data85)
+
+dyc1<-log(data85$cgdpo/data65$cgdpo)
+dKc1<-log(data85$cn/data65$cn)
+dLc1<-log(data85$pop/data65$pop)
+dHc1<-log(data85$Years/data65$Years)
+logY0c1<-log(data65$cgdpo)
+
+model1c1<-lm(dyc1~dKc1+dLc1+dHc1)
+smodel1c1<-summary(lm(dyc1~dKc1+dLc1+dHc1))
+#Adjust the standard errors for the heteroskedasticity robust ones
+smodel1c1$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc1~dKc1+dLc1+dHc1))))
+smodel1c1
+
+model2c1<-lm(dyc1~dKc1+dLc1+dHc1+logY0c1)
+smodel2c1<-summary(lm(dyc1~dKc1+dLc1+dHc1+logY0c1))
+#Adjust the standard errors for the heteroskedasticity robust ones
+smodel2c1$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc1~dKc1+dLc1+dHc1+logY0c1))))
+smodel2c1
+
+model3c1<-lm(dyc1~dKc1+dLc1+dHc1+logY0c1+data65$oil)
+smodel3c1<-summary(lm(dyc1~dKc1+dLc1+dHc1+logY0c1+data65$oil))
+#Adjust the standard errors for the heteroskedasticity robust ones
+smodel3c1$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc1~dKc1+dLc1+dHc1+logY0c1+data65$oil))))
+smodel3c1
+
+model4c1<-lm(dyc1~dKc1+dLc1+dHc1+logY0c1+data65$africa+data65$laamer)
+smodel4c1<-summary(lm(dyc1~dKc1+dLc1+dHc1+logY0c1+data65$africa+data65$laamer))
+#Adjust the standard errors for the heteroskedasticity robust ones
+smodel4c1$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc1~dKc1+dLc1+dHc1+logY0c1+data65$africa+data65$laamer))))
+smodel4c1
+
+library(stargazer)
+
+stargazer(model1c1, model2c1, model3c1, model4c1,
+          title="Cross-country growth accounting results. Standard Specification - dependent variable: DY. 
+          Robustness Check No. 1: Population instead of Employment as measure of labor force",
+          dep.var.caption="1965-1985",
+          dep.var.labels="",
+          covariate.labels=c("Const.","DK","DL","DH","Log Y0","OIL","AFRICA","LAAMER"),
+          column.labels=c("Model 1", "Model 2", "Model 3", "Model 4"),
+          type="latex",
+          omit.stat = c("rsq","adj.rsq","ser"),
+          model.numbers=FALSE,
+          intercept.bottom=FALSE,
+          column.sep.width="10pt",
+          df=FALSE)
+
 #####Alternate Measures for Human Capital######
 #The Wittgenstein Center provides data on human capital; the idea is to use the measure
 #already included in the Penn World Tables
+
+View(data65)
+View(data85)
+
+dyc2<-log(data85$cgdpo/data65$cgdpo)
+dKc2<-log(data85$cn/data65$cn)
+dLc2<-log(data85$emp/data65$emp)
+dHc2<-log(data85$hc/data65$hc)
+logY0c2<-log(data65$cgdpo)
+
+model1c2<-lm(dyc2~dKc2+dLc2+dHc2)
+smodel1c2<-summary(lm(dyc2~dKc2+dLc2+dHc2))
+#Adjust the standard errors for the heteroskedasticity robust ones
+smodel1c2$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc2~dKc2+dLc2+dHc2))))
+smodel1c2
+
+model2c2<-lm(dyc2~dKc2+dLc2+dHc2+logY0c2)
+smodel2c2<-summary(lm(dyc2~dKc2+dLc2+dHc2+logY0c2))
+#Adjust the standard errors for the heteroskedasticity robust ones
+smodel2c2$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc2~dKc2+dLc2+dHc2+logY0c2))))
+smodel2c2
+
+model3c2<-lm(dyc2~dKc2+dLc2+dHc2+logY0c2+data65$oil)
+smodel3c2<-summary(lm(dyc2~dKc2+dLc2+dHc2+logY0c2+data65$oil))
+#Adjust the standard errors for the heteroskedasticity robust ones
+smodel3c2$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc2~dKc2+dLc2+dHc2+logY0c2+data65$oil))))
+smodel3c2
+
+model4c2<-lm(dyc2~dKc2+dLc2+dHc2+logY0c2+data65$africa+data65$laamer)
+smodel4c2<-summary(lm(dyc2~dKc2+dLc2+dHc2+logY0c2+data65$africa+data65$laamer))
+#Adjust the standard errors for the heteroskedasticity robust ones
+smodel4c2$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc2~dKc2+dLc2+dHc2+logY0c2+data65$africa+data65$laamer))))
+smodel4c2
+
+library(stargazer)
+
+stargazer(model1c2, model2c2, model3c2, model4c2,
+          title="Cross-country growth accounting results. Standard Specification - dependent variable: DY. 
+          Robustness Check No. 2: Use Human Capital Measure included in Penn World Tables",
+          dep.var.caption="1965-1985",
+          dep.var.labels="",
+          covariate.labels=c("Const.","DK","DL","DH","Log Y0","OIL","AFRICA","LAAMER"),
+          column.labels=c("Model 1", "Model 2", "Model 3", "Model 4"),
+          type="latex",
+          omit.stat = c("rsq","adj.rsq","ser"),
+          model.numbers=FALSE,
+          intercept.bottom=FALSE,
+          column.sep.width="10pt",
+          df=FALSE)
 
 #####Subsample Analysis for Africa#####
 #Instead of just including a dummy, lets run the regression for the subsample of African
 #countries in the sample.
 
+#Select new datasubset
+data65afr<-subset(total_a_clean, year==1965 & africa==1)
+data85afr<-subset(total_a_clean, year==1985 & africa==1)
+
+#Calculate per capita income
+data65afr$cgdpo<-data65afr$cgdpo/data65afr$pop
+data85afr$cgdpo<-data85afr$cgdpo/data85afr$pop
+
+View(data65afr)
+View(data85afr)
+
+#Calculate log changes
+dyc3<-log(data85afr$cgdpo/data65afr$cgdpo)
+dKc3<-log(data85afr$cn/data65afr$cn)
+dLc3<-log(data85afr$emp/data65afr$emp)
+dHc3<-log(data85afr$Years/data65afr$Years)
+logY0c3<-log(data65afr$cgdpo)
+
+#Run the models; due to the special subsample, only model 1 and model 2 make sense.
+model1c3<-lm(dyc3~dKc3+dLc3+dHc3)
+smodel1c3<-summary(lm(dyc3~dKc3+dLc3+dHc3))
+#Adjust the standard errors for the heteroskedasticity robust ones
+smodel1c3$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc3~dKc3+dLc3+dHc3))))
+smodel1c3
+
+model2c3<-lm(dyc3~dKc3+dLc3+dHc3+logY0c3)
+smodel2c3<-summary(lm(dyc3~dKc3+dLc3+dHc3+logY0c3))
+#Adjust the standard errors for the heteroskedasticity robust ones
+smodel2c3$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc3~dKc3+dLc3+dHc3+logY0c3))))
+smodel2c3
+
+library(stargazer)
+
+stargazer(model1c3, model2c3 ,
+          title="Cross-country growth accounting results. Standard Specification - dependent variable: DY. 
+          Robustness Check No. 3: Subsample analysis for African countries.",
+          dep.var.caption="1965-1985",
+          dep.var.labels="",
+          covariate.labels=c("Const.","DK","DL","DH","Log Y0"),
+          column.labels=c("Model 1", "Model 2"),
+          type="latex",
+          omit.stat = c("rsq","adj.rsq","ser"),
+          model.numbers=FALSE,
+          intercept.bottom=FALSE,
+          column.sep.width="10pt",
+          df=FALSE)
+
 #####Subsample Analysis for Latin America#####
 #Instead of just including a dummy, lets run the regression for the subsample of Latin
 #American countries in the sample.
+
+#Select new datasubset
+data65laam<-subset(total_a_clean, year==1965 & laamer==1)
+data85laam<-subset(total_a_clean, year==1985 & laamer==1)
+
+#Calculate per capita income
+data65laam$cgdpo<-data65laam$cgdpo/data65laam$pop
+data85laam$cgdpo<-data85laam$cgdpo/data85laam$pop
+
+View(data65laam)
+View(data85laam)
+
+#Calculate log changes
+dyc4<-log(data85laam$cgdpo/data65laam$cgdpo)
+dKc4<-log(data85laam$cn/data65laam$cn)
+dLc4<-log(data85laam$emp/data65laam$emp)
+dHc4<-log(data85laam$Years/data65laam$Years)
+logY0c4<-log(data65laam$cgdpo)
+
+#Run the models; due to the special subsample, only model 1 and model 2 make sense.
+model1c4<-lm(dyc4~dKc4+dLc4+dHc4)
+smodel1c4<-summary(lm(dyc4~dKc4+dLc4+dHc4))
+#Adjust the standard errors for the heteroskedasticity robust ones
+smodel1c4$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc4~dKc4+dLc4+dHc4))))
+smodel1c4
+
+model2c4<-lm(dyc4~dKc4+dLc4+dHc4+logY0c4)
+smodel2c4<-summary(lm(dyc4~dKc4+dLc4+dHc4+logY0c4))
+#Adjust the standard errors for the heteroskedasticity robust ones
+smodel2c4$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc4~dKc4+dLc4+dHc4+logY0c4))))
+smodel2c4
+
+library(stargazer)
+
+stargazer(model1c4, model2c4 ,
+          title="Cross-country growth accounting results. Standard Specification - dependent variable: DY. 
+          Robustness Check No. 4: Subsample analysis for Latin American countries.",
+          dep.var.caption="1965-1985",
+          dep.var.labels="",
+          covariate.labels=c("Const.","DK","DL","DH","Log Y0"),
+          column.labels=c("Model 1", "Model 2"),
+          type="latex",
+          omit.stat = c("rsq","adj.rsq","ser"),
+          model.numbers=FALSE,
+          intercept.bottom=FALSE,
+          column.sep.width="10pt",
+          df=FALSE)
 
 #####Including TFP instead of a constant#####
 #Growth Accountig is used to proxy total factor productivity as we usually do not have
