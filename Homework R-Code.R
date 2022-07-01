@@ -144,6 +144,8 @@ smodel4a
 library(stargazer)
 
 stargazer(model1a, model2a, model3a, model4a,
+          se = list(smodel1a$coefficients[, 2], smodel2a$coefficients[, 2], smodel3a$coefficients[, 2], 
+                    smodel4a$coefficients[, 2]),
           title="Cross-country growth accounting results. Standard Specification - dependent variable: DY.",
           dep.var.caption="1965-1985",
           dep.var.labels="",
@@ -211,6 +213,8 @@ smodel4b$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyb~dKb+dLb+dHb+logY0b+data90$
 smodel4b
 
 stargazer(model1b, model2b, model3b, model4b,
+          se=list(smodel1b$coefficients[, 2], smodel2b$coefficients[, 2], smodel3b$coefficients[, 2],
+                  smodel4b$coefficients[, 2]),
           title="Cross-country growth accounting results. Standard Specification - dependent variable: DY.",
           dep.var.caption="1990-2015",
           dep.var.labels="",
@@ -262,6 +266,8 @@ smodel4c1$coefficients[, 2] <- sqrt(diag(vcovHC(lm(dyc1~dKc1+dLc1+dHc1+logY0c1+d
 smodel4c1
 
 stargazer(model1c1, model2c1, model3c1, model4c1,
+          se=list(smodel1c1$coefficients[, 2], smodel2c1$coefficients[, 2], smodel3c1$coefficients[, 2],
+                  smodel4c1$coefficients[, 2]),
           title="Cross-country growth accounting results. Standard Specification - dependent variable: DY. 
           Robustness Check No. 1: Population instead of Employment as measure of labor force",
           dep.var.caption="1965-1985",
@@ -353,6 +359,8 @@ smodel4c2
 library(stargazer)
 
 stargazer(model1c2, model2c2, model3c2, model4c2,
+          se=list(smodel1c2$coefficients[, 2], smodel2c2$coefficients[, 2], smodel3c2$coefficients[, 2],
+                  smodel4c2$coefficients[, 2]),
           title="Cross-country growth accounting results. Standard Specification - dependent variable: DY. 
           Robustness Check No. 2: Use Human Capital Measure included in Penn World Tables",
           dep.var.caption="1965-1985",
@@ -400,7 +408,8 @@ smodel2c3
 
 library(stargazer)
 
-stargazer(model1c3, model2c3 ,
+stargazer(model1c3, model2c3,
+          se=list(smodel1c3$coefficients[, 2], smodel2c3$coefficients[, 2]),
           title="Cross-country growth accounting results. Standard Specification - dependent variable: DY. 
           Robustness Check No. 3: Subsample analysis for African countries.",
           dep.var.caption="1965-1985",
@@ -448,7 +457,8 @@ smodel2c4
 
 library(stargazer)
 
-stargazer(model1c4, model2c4 ,
+stargazer(model1c4, model2c4,
+          se=list(smodel1c4$coefficients[, 2], smodel2c4$coefficients[, 2]),
           title="Cross-country growth accounting results. Standard Specification - dependent variable: DY. 
           Robustness Check No. 4: Subsample analysis for Latin American countries.",
           dep.var.caption="1965-1985",
@@ -547,6 +557,8 @@ smodel4c5
 library(stargazer)
 
 stargazer(model1c5, model2c5, model3c5, model4c5,
+          se=list(smodel1c5$coefficients[, 2], smodel2c5$coefficients[, 2], smodel3c5$coefficients[, 2],
+                  smodel4c5$coefficients[, 2]),
           title="Cross-country growth accounting results. Standard Specification - dependent variable: DY. 
           Robustness Check No. 5: Include TFP in regression, but supress intercept",
           dep.var.caption="1965-1985",
