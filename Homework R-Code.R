@@ -462,6 +462,13 @@ stargazer(model1c4, model2c4 ,
           column.sep.width="10pt",
           df=FALSE)
 
+summary(data65laam$Years)
+summary(data85laam$Years)
+
+summary(data65afr$Years)
+summary(data85afr$Years)
+
+
 #####Including TFP instead of a constant#####
 #Growth Accountig is used to proxy total factor productivity as we usually do not have
 #data on it. However, the Penn World tables allow us to actually include TFP as 
