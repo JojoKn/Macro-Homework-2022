@@ -560,7 +560,7 @@ stargazer(model1c5, model2c5, model3c5, model4c5,
           se=list(smodel1c5$coefficients[, 2], smodel2c5$coefficients[, 2], smodel3c5$coefficients[, 2],
                   smodel4c5$coefficients[, 2]),
           title="Cross-country growth accounting results. Standard Specification - dependent variable: DY. 
-          Robustness Check No. 5: Include TFP in regression, but supress intercept",
+          Robustness Check No. 5: Include TFP in regression, but exclduing the intercept.",
           dep.var.caption="1965-1985",
           dep.var.labels="",
           covariate.labels=c("DTFP","DK","DL","DH","Log Y0","OIL = 0","OIL = 1","AFRICA = 0","AFRICA = 1","LAAMER = 1"),
